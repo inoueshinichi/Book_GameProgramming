@@ -89,7 +89,6 @@
 		79961180288E405D0085C2A8 /* AudioSystem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AudioSystem.hpp; sourceTree = "<group>"; };
 		799B1A6B2891191F00B65FA0 /* AudioComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AudioComponent.cpp; sourceTree = "<group>"; };
 		799B1A6C2891191F00B65FA0 /* AudioComponent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AudioComponent.hpp; sourceTree = "<group>"; };
-		799BAAE0288FC48E00CAF981 /* External */ = {isa = PBXFileReference; lastKnownFileType = folder; path = External; sourceTree = "<group>"; };
 		799BAAE12890ECBA00CAF981 /* SoundEvent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SoundEvent.cpp; sourceTree = "<group>"; };
 		799BAAE22890ECBA00CAF981 /* SoundEvent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SoundEvent.hpp; sourceTree = "<group>"; };
 		799BAAE42890FC0900CAF981 /* libfmod.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmod.dylib; path = "External/FMOD/FMOD Programmers API/api/lowlevel/lib/libfmod.dylib"; sourceTree = "<group>"; };
@@ -119,7 +118,6 @@
 		79961132288E3A400085C2A8 = {
 			isa = PBXGroup;
 			children = (
-				799BAAE0288FC48E00CAF981 /* External */,
 				79961146288E3C490085C2A8 /* Assets */,
 				79961145288E3C490085C2A8 /* Shaders */,
 				7996113D288E3A400085C2A8 /* GPC_Ch07 */,
@@ -265,7 +263,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Copy FMOD dynamic libs to product-directory\nif [ -d \"$BUILD_DIR/Debug\" ]; then\n    cp \"$SRCROOT\"/External/FMOD/\"FMOD Programmers API\"/api/lowlevel/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/External/FMOD/\"FMOD Programmers API\"/api/studio/lib/*.dylib $BUILD_DIR/Debug\nfi\n\nif [ -d \"$BUILD_DIR/Release\" ]; then\n    cp \"$SRCROOT\"/External/FMOD/\"FMOD Programmers API\"/api/lowlevel/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/External/FMOD/\"FMOD Programmers API\"/api/studio/lib/*.dylib $BUILD_DIR/Release\nfi\n";
+			shellScript = "# Copy FMOD dynamic libs to product-directory\nif [ -d \"$BUILD_DIR/Debug\" ]; then\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/lowlevel/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/studio/lib/*.dylib $BUILD_DIR/Debug\nfi\n\nif [ -d \"$BUILD_DIR/Release\" ]; then\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/lowlevel/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/studio/lib/*.dylib $BUILD_DIR/Release\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -418,16 +416,16 @@
 				HEADER_SEARCH_PATHS = (
 					/opt/local/include,
 					/usr/local/include,
-					"$(SRCROOT)/External/FMOD/\"FMOD Programmers API\"/api/studio/inc",
-					"$(SRCROOT)/External/FMOD/\"FMOD Programmers API\"/api/lowlevel/inc",
+					"$(SRCROOT)/../External/FMOD/\"FMOD Programmers API\"/api/studio/inc",
+					"$(SRCROOT)/../External/FMOD/\"FMOD Programmers API\"/api/lowlevel/inc",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/local/Cellar/glew/2.2.0_1/lib,
 					/usr/local/Cellar/sdl2/2.0.16/lib,
 					/opt/local/lib,
-					"$(SRCROOT)/External/FMOD/\"FMOD Programmers API\"/api/lowlevel/lib",
-					"$(SRCROOT)/External/FMOD/\"FMOD Programmers API\"/api/studio/lib",
+					"$(SRCROOT)/../External/FMOD/\"FMOD Programmers API\"/api/lowlevel/lib",
+					"$(SRCROOT)/../External/FMOD/\"FMOD Programmers API\"/api/studio/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -443,16 +441,16 @@
 				HEADER_SEARCH_PATHS = (
 					/opt/local/include,
 					/usr/local/include,
-					"$(SRCROOT)/External/FMOD/\"FMOD Programmers API\"/api/studio/inc",
-					"$(SRCROOT)/External/FMOD/\"FMOD Programmers API\"/api/lowlevel/inc",
+					"$(SRCROOT)/../External/FMOD/\"FMOD Programmers API\"/api/studio/inc",
+					"$(SRCROOT)/../External/FMOD/\"FMOD Programmers API\"/api/lowlevel/inc",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/local/Cellar/glew/2.2.0_1/lib,
 					/usr/local/Cellar/sdl2/2.0.16/lib,
 					/opt/local/lib,
-					"$(SRCROOT)/External/FMOD/\"FMOD Programmers API\"/api/lowlevel/lib",
-					"$(SRCROOT)/External/FMOD/\"FMOD Programmers API\"/api/studio/lib",
+					"$(SRCROOT)/../External/FMOD/\"FMOD Programmers API\"/api/lowlevel/lib",
+					"$(SRCROOT)/../External/FMOD/\"FMOD Programmers API\"/api/studio/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
