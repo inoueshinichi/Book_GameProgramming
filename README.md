@@ -1,6 +1,13 @@
 # GameProgrammingCpp  
-C++/SDL/OpenGL/LapidJsonによるゲーム制作術  
-https://www.shoeisha.co.jp/book/detail/9784798157610   
+C++によるゲーム制作術  
+https://www.shoeisha.co.jp/book/detail/9784798157610 
+
+[Requrements of library]
+・SDL2  
+・OpenGL  
+・GLEW  
+・SOIL  
+・RapidJson  
 
 [1]  ゲームプログラミングの概要  
 [2]  ゲームオブジェクトと2Dグラフィックス  
