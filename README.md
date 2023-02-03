@@ -2,7 +2,7 @@
 C++によるゲーム制作術  
 https://www.shoeisha.co.jp/book/detail/9784798157610 
 
-[Requrements of library]
+[Requrements of library]  
 ・SDL2  
 ・OpenGL  
 ・GLEW  
