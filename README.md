@@ -1,5 +1,13 @@
 # GameProgrammingCpp  
-https://www.amazon.co.jp/ゲームプログラミングC-Sanjay-Madhav/dp/4798157619/ref=pd_lpo_1?pd_rd_i=4798157619&psc=1  
+C++によるゲーム制作術  
+https://www.shoeisha.co.jp/book/detail/9784798157610 
+
+[Requrements of library]  
+・SDL2  
+・OpenGL  
+・GLEW  
+・SOIL  
+・RapidJson  
 
 [1]  ゲームプログラミングの概要  
 [2]  ゲームオブジェクトと2Dグラフィックス  
