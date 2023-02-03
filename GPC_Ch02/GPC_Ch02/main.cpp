@@ -11,6 +11,8 @@
 
 int main(int argc, const char * argv[])
 {
+    std::printf("$(SRCROOT): %s\n", ASSET_DIR);
+    
     Game game;
     bool success = game.Initialize();
     if (success)

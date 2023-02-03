@@ -6,7 +6,7 @@
 //
 
 #include "Texture.hpp"
-#include <SOIL/SOIL.h>
+#include <SOIL.h>
 #include <GL/glew.h>
 #include <SDL2/SDL.h>
 

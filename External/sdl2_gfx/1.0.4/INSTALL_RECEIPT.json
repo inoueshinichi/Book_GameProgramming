@@ -1,0 +1,44 @@
+{
+  "homebrew_version": "2.1.11-151-g5354ba8",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "installed_as_dependency": false,
+  "installed_on_request": true,
+  "changed_files": [
+    "INSTALL_RECEIPT.json",
+    "README",
+    "lib/pkgconfig/SDL2_gfx.pc"
+  ],
+  "time": 1646214163,
+  "source_modified_time": 1518396854,
+  "compiler": "clang",
+  "aliases": [
+
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "sdl2",
+      "version": "2.0.16",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "1.0.4",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/sdl2_gfx.rb",
+    "tap_git_head": "324bb66ff39f459c224de87b5b769d7e41f1e1fb",
+    "tap": "homebrew/core"
+  },
+  "arch": "x86_64",
+  "built_on": null
+}

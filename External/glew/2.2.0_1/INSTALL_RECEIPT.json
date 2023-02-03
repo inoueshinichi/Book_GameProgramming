@@ -1,0 +1,44 @@
+{
+  "homebrew_version": "2.7.1-58-g4186cd9",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "installed_as_dependency": false,
+  "installed_on_request": true,
+  "changed_files": [
+    "lib/pkgconfig/glew.pc"
+  ],
+  "time": 1656402324,
+  "source_modified_time": 1584273239,
+  "compiler": "clang",
+  "aliases": [
+
+  ],
+  "runtime_dependencies": [
+
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "2.2.0",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/glew.rb",
+    "tap_git_head": "324bb66ff39f459c224de87b5b769d7e41f1e1fb",
+    "tap": "homebrew/core"
+  },
+  "arch": "x86_64",
+  "built_on": {
+    "os": "Macintosh",
+    "os_version": "macOS 11.1",
+    "cpu_family": "penryn",
+    "xcode": "12.3",
+    "clt": "12.3.0.0.1.1607026830"
+  }
+}

@@ -8,12 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7990F15327E46F3300496CAC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7990F15227E46F3300496CAC /* main.cpp */; };
-		7990F15B27E46FBF00496CAC /* libSDL2_net-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7990F15A27E46FBF00496CAC /* libSDL2_net-2.0.0.dylib */; };
-		7990F15D27E46FCC00496CAC /* libSDL2-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7990F15C27E46FCC00496CAC /* libSDL2-2.0.0.dylib */; };
-		7990F15F27E46FD900496CAC /* libSDL2_image-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7990F15E27E46FD900496CAC /* libSDL2_image-2.0.0.dylib */; };
-		7990F16127E46FF100496CAC /* libSDL2_ttf-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7990F16027E46FF100496CAC /* libSDL2_ttf-2.0.0.dylib */; };
-		7990F16327E46FFE00496CAC /* libSDL2_gfx-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7990F16227E46FFE00496CAC /* libSDL2_gfx-1.0.0.dylib */; };
-		7990F16527E4700B00496CAC /* libSDL2_mixer-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7990F16427E4700B00496CAC /* libSDL2_mixer-2.0.0.dylib */; };
 		7990F16827E470A200496CAC /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7990F16627E470A200496CAC /* Game.cpp */; };
 		7990F16B27E47C1500496CAC /* Random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7990F16927E47C1500496CAC /* Random.cpp */; };
 		7990F16E27E47E8A00496CAC /* Actor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7990F16C27E47E8A00496CAC /* Actor.cpp */; };
@@ -26,6 +20,8 @@
 		799D8F0427E57BD700DEF4EA /* CircleComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799D8F0227E57BD700DEF4EA /* CircleComponent.cpp */; };
 		799D8F0727E57C0D00DEF4EA /* Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799D8F0527E57C0D00DEF4EA /* Math.cpp */; };
 		799D8F0A27E57DBE00DEF4EA /* Asteroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799D8F0827E57DBE00DEF4EA /* Asteroid.cpp */; };
+		79E1FDFD298516DB00781C7C /* libSDL2-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E1FDF92985158B00781C7C /* libSDL2-2.0.0.dylib */; };
+		79E1FDFE298516DF00781C7C /* libSDL2_image-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E1FDFB2985159700781C7C /* libSDL2_image-2.0.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,12 +39,6 @@
 /* Begin PBXFileReference section */
 		7990F14F27E46F3300496CAC /* GPC_Ch03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GPC_Ch03; sourceTree = BUILT_PRODUCTS_DIR; };
 		7990F15227E46F3300496CAC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		7990F15A27E46FBF00496CAC /* libSDL2_net-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_net-2.0.0.dylib"; path = "../../../../../../usr/local/Cellar/sdl2_net/2.0.1/lib/libSDL2_net-2.0.0.dylib"; sourceTree = "<group>"; };
-		7990F15C27E46FCC00496CAC /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "../../../../../../usr/local/Cellar/sdl2/2.0.16/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
-		7990F15E27E46FD900496CAC /* libSDL2_image-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_image-2.0.0.dylib"; path = "../../../../../../usr/local/Cellar/sdl2_image/2.0.5/lib/libSDL2_image-2.0.0.dylib"; sourceTree = "<group>"; };
-		7990F16027E46FF100496CAC /* libSDL2_ttf-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_ttf-2.0.0.dylib"; path = "../../../../../../usr/local/Cellar/sdl2_ttf/2.0.15/lib/libSDL2_ttf-2.0.0.dylib"; sourceTree = "<group>"; };
-		7990F16227E46FFE00496CAC /* libSDL2_gfx-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_gfx-1.0.0.dylib"; path = "../../../../../../usr/local/Cellar/sdl2_gfx/1.0.4/lib/libSDL2_gfx-1.0.0.dylib"; sourceTree = "<group>"; };
-		7990F16427E4700B00496CAC /* libSDL2_mixer-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_mixer-2.0.0.dylib"; path = "../../../../../../usr/local/Cellar/sdl2_mixer/2.0.4_1/lib/libSDL2_mixer-2.0.0.dylib"; sourceTree = "<group>"; };
 		7990F16627E470A200496CAC /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
 		7990F16727E470A200496CAC /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
 		7990F16927E47C1500496CAC /* Random.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Random.cpp; sourceTree = "<group>"; };
@@ -74,6 +64,8 @@
 		799D8F0827E57DBE00DEF4EA /* Asteroid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Asteroid.cpp; sourceTree = "<group>"; };
 		799D8F0927E57DBE00DEF4EA /* Asteroid.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Asteroid.hpp; sourceTree = "<group>"; };
 		799D8F0B27E582AF00DEF4EA /* GPC_Ch03.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GPC_Ch03.entitlements; sourceTree = "<group>"; };
+		79E1FDF92985158B00781C7C /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "../External/sdl2/2.0.22/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
+		79E1FDFB2985159700781C7C /* libSDL2_image-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_image-2.0.0.dylib"; path = "../External/sdl2_image/2.6.0_1/lib/libSDL2_image-2.0.0.dylib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7990F16527E4700B00496CAC /* libSDL2_mixer-2.0.0.dylib in Frameworks */,
-				7990F16127E46FF100496CAC /* libSDL2_ttf-2.0.0.dylib in Frameworks */,
-				7990F16327E46FFE00496CAC /* libSDL2_gfx-1.0.0.dylib in Frameworks */,
-				7990F15F27E46FD900496CAC /* libSDL2_image-2.0.0.dylib in Frameworks */,
-				7990F15D27E46FCC00496CAC /* libSDL2-2.0.0.dylib in Frameworks */,
-				7990F15B27E46FBF00496CAC /* libSDL2_net-2.0.0.dylib in Frameworks */,
+				79E1FDFD298516DB00781C7C /* libSDL2-2.0.0.dylib in Frameworks */,
+				79E1FDFE298516DF00781C7C /* libSDL2_image-2.0.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,12 +134,8 @@
 		7990F15927E46FBE00496CAC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7990F16427E4700B00496CAC /* libSDL2_mixer-2.0.0.dylib */,
-				7990F16227E46FFE00496CAC /* libSDL2_gfx-1.0.0.dylib */,
-				7990F16027E46FF100496CAC /* libSDL2_ttf-2.0.0.dylib */,
-				7990F15E27E46FD900496CAC /* libSDL2_image-2.0.0.dylib */,
-				7990F15C27E46FCC00496CAC /* libSDL2-2.0.0.dylib */,
-				7990F15A27E46FBF00496CAC /* libSDL2_net-2.0.0.dylib */,
+				79E1FDFB2985159700781C7C /* libSDL2_image-2.0.0.dylib */,
+				79E1FDF92985158B00781C7C /* libSDL2-2.0.0.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -166,6 +150,7 @@
 				7990F14B27E46F3300496CAC /* Sources */,
 				7990F14C27E46F3300496CAC /* Frameworks */,
 				7990F14D27E46F3300496CAC /* CopyFiles */,
+				79E1FDF82985142600781C7C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -207,6 +192,26 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79E1FDF82985142600781C7C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [-d \"BUILD_DIR/Debug\"]; then\n    cp \"$SRCROOT\"/../External/sdl2/\"2.0.22\"/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/sdl2_image/\"2.6.0_1\"/lib/*dylib $BUILD_DIR/Debug\nfi\n\nif [-d \"BUILD_DIR/Release\"]; then\n    cp \"$SRCROOT\"/../External/sdl2/\"2.0.22\"/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/sdl2_image/\"2.6.0_1\"/lib/*dylib $BUILD_DIR/Release\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7990F14B27E46F3300496CAC /* Sources */ = {
@@ -350,15 +355,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9DLP5G32Z4;
 				ENABLE_HARDENED_RUNTIME = YES;
-				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../External/sdl2/\"2.0.22\"/include/**",
+					"$(SRCROOT)/../External/sdl2_image/\"2.6.0_1\"/include",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/usr/local/Cellar/sdl2_net/2.0.1/lib,
-					/usr/local/Cellar/sdl2/2.0.16/lib,
-					/usr/local/Cellar/sdl2_image/2.0.5/lib,
-					/usr/local/Cellar/sdl2_ttf/2.0.15/lib,
-					/usr/local/Cellar/sdl2_gfx/1.0.4/lib,
-					/usr/local/Cellar/sdl2_mixer/2.0.4_1/lib,
+					"$(SRCROOT)/../External/sdl2/\"2.0.22\"/lib",
+					"$(SRCROOT)/../External/sdl2_image/\"2.6.0_1\"/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -371,15 +375,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9DLP5G32Z4;
 				ENABLE_HARDENED_RUNTIME = YES;
-				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../External/sdl2/\"2.0.22\"/include/**",
+					"$(SRCROOT)/../External/sdl2_image/\"2.6.0_1\"/include",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/usr/local/Cellar/sdl2_net/2.0.1/lib,
-					/usr/local/Cellar/sdl2/2.0.16/lib,
-					/usr/local/Cellar/sdl2_image/2.0.5/lib,
-					/usr/local/Cellar/sdl2_ttf/2.0.15/lib,
-					/usr/local/Cellar/sdl2_gfx/1.0.4/lib,
-					/usr/local/Cellar/sdl2_mixer/2.0.4_1/lib,
+					"$(SRCROOT)/../External/sdl2/\"2.0.22\"/lib",
+					"$(SRCROOT)/../External/sdl2_image/\"2.6.0_1\"/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

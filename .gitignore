@@ -1,16 +1,21 @@
+# VSCode
+.vs
+
+# macOS & Xcode
 *.db
 *.user
 *.opendb
-Debug/
-Release/
+/Debug/
+/Release/
 .DS_Store
 *xcuserdatad*
 *.xccheckout
 *.stackdump
-.vs
+
+# This projects
 Chapter14/Assets/Saved.gplevel
 Chapter14/Assets/*.bin
 
 # オリジナルのソースコード
-code-master
+/code-master/
 
