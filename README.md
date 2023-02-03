@@ -1,4 +1,5 @@
 # GameProgrammingCpp  
+C++/SDL/OpenGL/LapidJsonによるゲーム制作術  
 https://www.shoeisha.co.jp/book/detail/9784798157610   
 
 [1]  ゲームプログラミングの概要  
