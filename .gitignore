@@ -7,10 +7,12 @@
 *.opendb
 /Debug/
 /Release/
+/DerivedData/
 .DS_Store
 *xcuserdatad*
 *.xccheckout
 *.stackdump
+
 
 # This projects
 Chapter14/Assets/Saved.gplevel
