@@ -1,0 +1,56 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "afa77bd0f9a3435d979067b1ba3d368466e270e5b03b7f99b0545c6a02ba5929"
+    }
+  ],
+  "containerPath" : "/Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch05/GPC_Ch05.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch05/DerivedData/GPC_Ch05/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch05/DerivedData/GPC_Ch05/Build/Products",
+      "derivedDataPath" : "/Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch05/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch05/DerivedData/GPC_Ch05/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch05/DerivedData/GPC_Ch05/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch05/DerivedData/GPC_Ch05/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

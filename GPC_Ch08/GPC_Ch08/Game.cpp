@@ -57,7 +57,7 @@ bool Game::Initialize()
     SDL_GL_SetAttribute(SDL_GL_ACCELERATED_VISUAL, 1);
     
     
-    mWindow = SDL_CreateWindow("Game Programming in C++ (Chapter 5)"
+    mWindow = SDL_CreateWindow("Game Programming in C++ (Chapter 8)"
                                , 100
                                , 100
                                , 1024
@@ -246,7 +246,8 @@ void Game::GenerateOutput()
 bool Game::LoadShaders()
 {
     mSpriteShader = new Shader();
-    if (!mSpriteShader->Load(SHADER_DIR "Shaders/Sprite.vert", SHADER_DIR "Shaders/Sprite.frag"))
+    if (!mSpriteShader->Load(SHADERS_DIR "Shaders/Sprite.vert",
+                             SHADERS_DIR "Shaders/Sprite.frag"))
     {
         return false;
     }

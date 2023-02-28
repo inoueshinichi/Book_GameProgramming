@@ -181,6 +181,7 @@
 				792A7B622874299400D3DB98 /* Sources */,
 				792A7B632874299400D3DB98 /* Frameworks */,
 				792A7B642874299400D3DB98 /* CopyFiles */,
+				7998FB4129ADBDB70077C185 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -222,6 +223,26 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7998FB4129ADBDB70077C185 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\necho \"Run script for copy file!!! by shinichi inoue\"\n\nif [ -d \"$BUILD_DIR/Debug\" ]; then\n    cp \"$SRCROOT\"/../External/glew/\"2.2.0_1\"/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/sdl2/\"2.0.22\"/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/sdl2_image/\"2.6.0_1\"/lib/*dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/SOIL/lib/*.dylib $BUILD_DIR/Debug\nfi\n\nif [ -d \"$BUILD_DIR/Release\" ]; then\n    cp \"$SRCROOT\"/../External/glew/\"2.2.0_1\"/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/sdl2/\"2.0.22\"/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/sdl2_image/\"2.6.0_1\"/lib/*dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/SOIL/lib/*.dylib $BUILD_DIR/Release\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		792A7B622874299400D3DB98 /* Sources */ = {
@@ -367,7 +388,8 @@
 				DEVELOPMENT_TEAM = 9DLP5G32Z4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../External/sdl2/\"2.0.22\"/include/**",
+					"$(inherited)",
+					"$(SRCROOT)/../External/sdl2/\"2.0.22\"/include/SDL2/**",
 					"$(SRCROOT)/../External/sdl2_image/\"2.6.0_1\"/include",
 					"$(SRCROOT)/../External/SOIL/include",
 					"$(SRCROOT)/../External/glew/\"2.2.0_1\"/include",
@@ -391,7 +413,8 @@
 				DEVELOPMENT_TEAM = 9DLP5G32Z4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../External/sdl2/\"2.0.22\"/include/**",
+					"$(inherited)",
+					"$(SRCROOT)/../External/sdl2/\"2.0.22\"/include/SDL2/**",
 					"$(SRCROOT)/../External/sdl2_image/\"2.6.0_1\"/include",
 					"$(SRCROOT)/../External/SOIL/include",
 					"$(SRCROOT)/../External/glew/\"2.2.0_1\"/include",

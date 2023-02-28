@@ -9,7 +9,7 @@ Bullet::Bullet(Game* game)
 	:	Actor(game)
 {
 	SpriteComponent* sc = new SpriteComponent(this);
-	sc->SetTexture(game->GetTexture(ASSET_DIR "Assets/Projectile.png"));
+	sc->SetTexture(game->GetTexture(ASSETS_DIR "Assets/Projectile.png"));
 	
 	MoveComponent* mc = new MoveComponent(this);
 	mc->SetForwardSpeed(400.0f);

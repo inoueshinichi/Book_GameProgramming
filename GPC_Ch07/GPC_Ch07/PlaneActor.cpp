@@ -15,5 +15,5 @@ PlaneActor::PlaneActor(Game* game)
 {
     SetScale(10.0f);
     MeshComponent* mc = new MeshComponent(this);
-    mc->SetMesh(GetGame()->GetRenderer()->GetMesh(ASSET_DIR "Assets/Plane.gpmesh"));
+    mc->SetMesh(GetGame()->GetRenderer()->GetMesh(ASSETS_DIR "Assets/Plane.gpmesh"));
 }

@@ -36,7 +36,7 @@ void MeshComponent::Draw(Shader* shader)
         shader->SetMatrixUniform("uWorldTransform", mOwner->GetWorldTransform());
         
         // Set specular power
-        shader->SetFloatUnion("uSpecPower", mMesh->GetSpecPower());
+        shader->SetFloatUniform("uSpecPower", mMesh->GetSpecPower());
         
         // Set the active texture
         Texture* t = mMesh->GetTexture(mTextureIndex);
@@ -51,6 +51,6 @@ void MeshComponent::Draw(Shader* shader)
         va->SetActive();
         
         // Draw
-        glDrawEelement(GL_TRIANGLES, va->GetNumIndices(), GL_UNSIGNED_INT, nullptr);
+        glDrawElements(GL_TRIANGLES, va->GetNumIndices(), GL_UNSIGNED_INT, nullptr);
     }
 }

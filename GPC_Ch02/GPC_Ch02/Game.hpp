@@ -8,12 +8,12 @@
 #ifndef Game_hpp
 #define Game_hpp
 
-#include "SDL2/SDL.h"
+#include "SDL.h"
 #include <unordered_map>
 #include <string>
 #include <vector>
 
-#define ASSET_DIR "/Users/inoueshinichi/Desktop/MyGithub/GameProgrammingCpp/GPC_Ch02/"
+#define ASSETS_DIR "/Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch02/"
 
 // 前方宣言
 class Actor;

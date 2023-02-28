@@ -23,7 +23,7 @@ AudioComponent::~AudioComponent()
 
 void AudioComponent::Update(float deltaTime)
 {
-    Component::Update(deltaTime);
+    Component::Update(deltaTime); // 何もしてないのでコールしなくてよい
     
     // Remove invalid 2D events
     auto iter = mEvents2D.begin();

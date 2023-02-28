@@ -8,7 +8,7 @@
 #ifndef SpriteComponent_hpp
 #define SpriteComponent_hpp
 
-#include "SDL2/SDL.h"
+#include "SDL.h"
 #include "Component.hpp"
 #include "Actor.hpp"
 

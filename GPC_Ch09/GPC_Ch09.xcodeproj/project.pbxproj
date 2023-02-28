@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7998FB3329AD90590077C185 /* CameraComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7998FB3129AD90590077C185 /* CameraComponent.cpp */; };
+		7998FB3529ADA6670077C185 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7998FB3429ADA6670077C185 /* OpenGL.framework */; };
 		7999956D297267E600DD252B /* SplineActor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7999956B297267E500DD252B /* SplineActor.cpp */; };
 		799DF48328A0A88700DDA60C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799DF48228A0A88700DDA60C /* main.cpp */; };
+		79A24E3729AA33540097EDDB /* libfmod.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A24E3629AA33540097EDDB /* libfmod.dylib */; };
+		79A24E3929AA335E0097EDDB /* libfmodstudio.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A24E3829AA335E0097EDDB /* libfmodstudio.dylib */; };
+		79A24E3B29AA336F0097EDDB /* libGLEW.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A24E3A29AA336F0097EDDB /* libGLEW.2.2.0.dylib */; };
+		79A24E3D29AA33820097EDDB /* libSDL2-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A24E3C29AA33820097EDDB /* libSDL2-2.0.0.dylib */; };
+		79A24E3F29AA339E0097EDDB /* libSDL2_image-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A24E3E29AA339E0097EDDB /* libSDL2_image-2.0.0.dylib */; };
+		79A24E4129AA33AA0097EDDB /* libSOIL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A24E4029AA33AA0097EDDB /* libSOIL.dylib */; };
 		79AEDBA829810CAB00CDB14E /* FollowActor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79AEDBA629810CAB00CDB14E /* FollowActor.cpp */; };
 		79AEDBAB29813E1700CDB14E /* OrbitActor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79AEDBA929813E1700CDB14E /* OrbitActor.cpp */; };
 		79FF2AB128AE04A20019B632 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79FF2AAF28AE04A20019B632 /* Game.cpp */; };
@@ -61,20 +69,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7998FB3129AD90590077C185 /* CameraComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CameraComponent.cpp; sourceTree = "<group>"; };
+		7998FB3229AD90590077C185 /* CameraComponent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CameraComponent.hpp; sourceTree = "<group>"; };
+		7998FB3429ADA6670077C185 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		7999956B297267E500DD252B /* SplineActor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SplineActor.cpp; sourceTree = "<group>"; };
 		7999956C297267E600DD252B /* SplineActor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SplineActor.hpp; sourceTree = "<group>"; };
 		799DF47F28A0A88700DDA60C /* GPC_Ch09 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GPC_Ch09; sourceTree = BUILT_PRODUCTS_DIR; };
 		799DF48228A0A88700DDA60C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		799DF48928A0A8B000DDA60C /* GPC_Ch09.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GPC_Ch09.entitlements; sourceTree = "<group>"; };
+		79A24E3629AA33540097EDDB /* libfmod.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmod.dylib; path = "../External/FMOD/FMOD Programmers API/api/lowlevel/lib/libfmod.dylib"; sourceTree = "<group>"; };
+		79A24E3829AA335E0097EDDB /* libfmodstudio.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmodstudio.dylib; path = "../External/FMOD/FMOD Programmers API/api/studio/lib/libfmodstudio.dylib"; sourceTree = "<group>"; };
+		79A24E3A29AA336F0097EDDB /* libGLEW.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.2.0.dylib; path = ../External/glew/2.2.0_1/lib/libGLEW.2.2.0.dylib; sourceTree = "<group>"; };
+		79A24E3C29AA33820097EDDB /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "../External/sdl2/2.0.22/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
+		79A24E3E29AA339E0097EDDB /* libSDL2_image-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_image-2.0.0.dylib"; path = "../External/sdl2_image/2.6.0_1/lib/libSDL2_image-2.0.0.dylib"; sourceTree = "<group>"; };
+		79A24E4029AA33AA0097EDDB /* libSOIL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSOIL.dylib; path = ../External/SOIL/lib/libSOIL.dylib; sourceTree = "<group>"; };
 		79AEDBA629810CAB00CDB14E /* FollowActor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FollowActor.cpp; sourceTree = "<group>"; };
 		79AEDBA729810CAB00CDB14E /* FollowActor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FollowActor.hpp; sourceTree = "<group>"; };
 		79AEDBA929813E1700CDB14E /* OrbitActor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OrbitActor.cpp; sourceTree = "<group>"; };
 		79AEDBAA29813E1700CDB14E /* OrbitActor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OrbitActor.hpp; sourceTree = "<group>"; };
-		79E1FD9B2984EEC100781C7C /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		79E1FD9D2984EF7500781C7C /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "../../../../../../usr/local/Cellar/sdl2/2.0.22/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
-		79E1FD9F2984EF9800781C7C /* libSDL2_image-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_image-2.0.0.dylib"; path = "../../../../../../usr/local/Cellar/sdl2_image/2.6.0_1/lib/libSDL2_image-2.0.0.dylib"; sourceTree = "<group>"; };
-		79E1FDA12984EFC300781C7C /* libGLEW.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.2.0.dylib; path = ../../../../../../usr/local/Cellar/glew/2.2.0_1/lib/libGLEW.2.2.0.dylib; sourceTree = "<group>"; };
-		79E1FDA32984F07800781C7C /* libSOIL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSOIL.dylib; path = ../../../../../../opt/local/lib/libSOIL.dylib; sourceTree = "<group>"; };
 		79FF2AAF28AE04A20019B632 /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
 		79FF2AB028AE04A20019B632 /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
 		79FF2AB228AE04B20019B632 /* Actor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Actor.cpp; sourceTree = "<group>"; };
@@ -124,6 +136,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7998FB3529ADA6670077C185 /* OpenGL.framework in Frameworks */,
+				79A24E3D29AA33820097EDDB /* libSDL2-2.0.0.dylib in Frameworks */,
+				79A24E3B29AA336F0097EDDB /* libGLEW.2.2.0.dylib in Frameworks */,
+				79A24E3F29AA339E0097EDDB /* libSDL2_image-2.0.0.dylib in Frameworks */,
+				79A24E4129AA33AA0097EDDB /* libSOIL.dylib in Frameworks */,
+				79A24E3729AA33540097EDDB /* libfmod.dylib in Frameworks */,
+				79A24E3929AA335E0097EDDB /* libfmodstudio.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +191,8 @@
 				79FF2AC228AE050D0019B632 /* AudioSystem.hpp */,
 				79FF2AB528AE04C30019B632 /* Component.cpp */,
 				79FF2AB628AE04C30019B632 /* Component.hpp */,
+				7998FB3129AD90590077C185 /* CameraComponent.cpp */,
+				7998FB3229AD90590077C185 /* CameraComponent.hpp */,
 				79FF2AEB28AE0E470019B632 /* CircleComponent.cpp */,
 				79FF2AEC28AE0E470019B632 /* CircleComponent.hpp */,
 				79FF2AD028AE05C00019B632 /* AudioComponent.cpp */,
@@ -207,11 +228,13 @@
 		79E1FD9A2984EEC100781C7C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				79E1FDA32984F07800781C7C /* libSOIL.dylib */,
-				79E1FDA12984EFC300781C7C /* libGLEW.2.2.0.dylib */,
-				79E1FD9F2984EF9800781C7C /* libSDL2_image-2.0.0.dylib */,
-				79E1FD9D2984EF7500781C7C /* libSDL2-2.0.0.dylib */,
-				79E1FD9B2984EEC100781C7C /* OpenGL.framework */,
+				7998FB3429ADA6670077C185 /* OpenGL.framework */,
+				79A24E4029AA33AA0097EDDB /* libSOIL.dylib */,
+				79A24E3E29AA339E0097EDDB /* libSDL2_image-2.0.0.dylib */,
+				79A24E3C29AA33820097EDDB /* libSDL2-2.0.0.dylib */,
+				79A24E3A29AA336F0097EDDB /* libGLEW.2.2.0.dylib */,
+				79A24E3829AA335E0097EDDB /* libfmodstudio.dylib */,
+				79A24E3629AA33540097EDDB /* libfmod.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -286,7 +309,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [-d \"BUILD_DIR/Debug\"]; then\n    cp \"$SRCROOT\"/../External/glew/\"2.2.0_1\"/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/sdl2/\"2.0.22\"/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/sdl2_image/\"2.6.0_1\"/lib/*dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/SOIL/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/lowlevel/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/studio/lib/*.dylib $BUILD_DIR/Debug\nfi\n\nif [-d \"BUILD_DIR/Release\"]; then\n    cp \"$SRCROOT\"/../External/glew/\"2.2.0_1\"/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/sdl2/\"2.0.22\"/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/sdl2_image/\"2.6.0_1\"/lib/*dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/SOIL/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/lowlevel/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/studio/lib/*.dylib $BUILD_DIR/Release\nfi\n    \n    \n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\necho \"Run script for copy file!!! by shinichi inoue\"\n\nif [ -d \"$BUILD_DIR/Debug\" ]; then\n    cp \"$SRCROOT\"/../External/glew/\"2.2.0_1\"/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/sdl2/\"2.0.22\"/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/sdl2_image/\"2.6.0_1\"/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/SOIL/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/lowlevel/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/studio/lib/*.dylib $BUILD_DIR/Debug\nfi\n\nif [ -d \"$BUILD_DIR/Release\" ]; then\n    cp \"$SRCROOT\"/../External/glew/\"2.2.0_1\"/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/sdl2/\"2.0.22\"/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/sdl2_image/\"2.6.0_1\"/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/SOIL/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/lowlevel/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/studio/lib/*.dylib $BUILD_DIR/Release\nfi\n    \n    \n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -319,6 +342,7 @@
 				79AEDBAB29813E1700CDB14E /* OrbitActor.cpp in Sources */,
 				79FF2AB128AE04A20019B632 /* Game.cpp in Sources */,
 				79FF2AC328AE050D0019B632 /* AudioSystem.cpp in Sources */,
+				7998FB3329AD90590077C185 /* CameraComponent.cpp in Sources */,
 				79FF2AF528AE1D470019B632 /* FPSActor.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,7 +478,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../External/glew/\"2.2.0_1\"/lib",
-					"$(SRCROOT)/../External/sd2/\"2.0.22\"/lib",
+					"$(SRCROOT)/../External/sdl2/\"2.0.22\"/lib",
 					"$(SRCROOT)/../External/FMOD/\"FMOD Programmers API\"/api/lowlevel/lib",
 					"$(SRCROOT)/../External/FMOD/\"FMOD Programmers API\"/api/studio/lib",
 					"$(SRCROOT)/../External/sdl2_image/\"2.6.0_1\"/lib",
@@ -483,7 +507,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../External/glew/\"2.2.0_1\"/lib",
-					"$(SRCROOT)/../External/sd2/\"2.0.22\"/lib",
+					"$(SRCROOT)/../External/sdl2/\"2.0.22\"/lib",
 					"$(SRCROOT)/../External/FMOD/\"FMOD Programmers API\"/api/lowlevel/lib",
 					"$(SRCROOT)/../External/FMOD/\"FMOD Programmers API\"/api/studio/lib",
 					"$(SRCROOT)/../External/sdl2_image/\"2.6.0_1\"/lib",

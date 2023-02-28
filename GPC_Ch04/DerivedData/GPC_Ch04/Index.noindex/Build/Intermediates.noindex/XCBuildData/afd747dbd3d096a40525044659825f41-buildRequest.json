@@ -1,0 +1,59 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "f236d1b1c81edef88608f1ceee28534e02cbf659045676a36a02fd5c9970ee4b"
+    }
+  ],
+  "containerPath" : "/Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch04/GPC_Ch04.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch04/DerivedData/GPC_Ch04/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch04/DerivedData/GPC_Ch04/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch04/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch04/DerivedData/GPC_Ch04/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch04/DerivedData/GPC_Ch04/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch04/DerivedData/GPC_Ch04/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch04/DerivedData/GPC_Ch04/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -28,7 +28,9 @@ bool Texture::Load(const std::string& fileName)
     int channels = 0;
     
     unsigned char* image = SOIL_load_image(fileName.c_str(),
-                                           &mWidth, &mHeight, &channels,
+                                           &mWidth,
+                                           &mHeight,
+                                           &channels,
                                            SOIL_LOAD_AUTO);
     
     if (image == nullptr)

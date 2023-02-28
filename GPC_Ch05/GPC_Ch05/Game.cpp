@@ -440,7 +440,8 @@ void Game::CreateSpriteVerts()
 bool Game::LoadShaders()
 {
     mSpriteShader = new Shader();
-    if (!mSpriteShader->Load(SHADER_DIR "Shaders/Sprite.vert"/*"Shaders/Transform.vert"*//*"Shaders/Basic.vert"*/, SHADER_DIR "Shaders/Sprite.frag"/*"Shaders/Basic.frag"*/))
+    if (!mSpriteShader->Load(SHADERS_DIR "Shaders/Sprite.vert"/*"Shaders/Transform.vert"*//*"Shaders/Basic.vert"*/,
+                             SHADERS_DIR "Shaders/Sprite.frag"/*"Shaders/Basic.frag"*/))
     {
         return false;
     }

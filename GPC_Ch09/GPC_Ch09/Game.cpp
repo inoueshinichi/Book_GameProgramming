@@ -133,9 +133,9 @@ void Game::HandleKeyPress(int key)
         break;
     }
     case '1':
-    case '2':
-    case '3':
-    case '4':
+//    case '2':
+//    case '3':
+//    case '4':
         ChangeCamera(key);
         break;
     case SDL_BUTTON_LEFT:
@@ -221,13 +221,13 @@ void Game::LoadData()
     q = Quaternion::Concatenate(q, Quaternion(Vector3::UnitZ, Math::Pi + Math::Pi / 4.0f));
     a->SetRotation(q);
     MeshComponent* mc = new MeshComponent(a);
-    mc->SetMesh(mRenderer->GetMesh("Assets/Cube.gpmesh"));
+    mc->SetMesh(mRenderer->GetMesh(ASSETS_DIR "Assets/Cube.gpmesh"));
 
     a = new Actor(this);
     a->SetPosition(Vector3(200.0f, -75.0f, 0.0f));
     a->SetScale(3.0f);
     mc = new MeshComponent(a);
-    mc->SetMesh(mRenderer->GetMesh("Assets/Sphere.gpmesh"));
+    mc->SetMesh(mRenderer->GetMesh(ASSETS_DIR "Assets/Sphere.gpmesh"));
 
     // Setup floor
     const float start = -1250.0f;
@@ -278,18 +278,18 @@ void Game::LoadData()
     a = new Actor(this);
     a->SetPosition(Vector3(-350.0f, -350.0f, 0.0f));
     SpriteComponent* sc = new SpriteComponent(a);
-    sc->SetTexture(mRenderer->GetTexture("Assets/HealthBar.png"));
+    sc->SetTexture(mRenderer->GetTexture(ASSETS_DIR "Assets/HealthBar.png"));
 
     a = new Actor(this);
     a->SetPosition(Vector3(-390.0f, 275.0f, 0.0f));
     a->SetScale(0.75f);
     sc = new SpriteComponent(a);
-    sc->SetTexture(mRenderer->GetTexture("Assets/Radar.png"));
+    sc->SetTexture(mRenderer->GetTexture(ASSETS_DIR "Assets/Radar.png"));
 
     a = new Actor(this);
     a->SetScale(2.0f);
     mCrosshair = new SpriteComponent(a);
-    mCrosshair->SetTexture(mRenderer->GetTexture("Assets/Crosshair.png"));
+    mCrosshair->SetTexture(mRenderer->GetTexture(ASSETS_DIR "Assets/Crosshair.png"));
 
     // Start music
     mMusicEvent = mAudioSystem->PlayEvent("event:/Music");
@@ -301,9 +301,9 @@ void Game::LoadData()
 
     // Different camera actors
     mFPSActor = new FPSActor(this);
-    mFollowActor = new FollowActor(this);
-    mOrbitActor = new OrbitActor(this);
-    mSplineActor = new SplineActor(this);
+//    mFollowActor = new FollowActor(this);
+//    mOrbitActor = new OrbitActor(this);
+//    mSplineActor = new SplineActor(this);
 
     ChangeCamera('1');
 
@@ -312,12 +312,12 @@ void Game::LoadData()
     mStartSphere->SetPosition(Vector3(10000.0f, 0.0f, 0.0f));
     mStartSphere->SetScale(0.25f);
     mc = new MeshComponent(mStartSphere);
-    mc->SetMesh(mRenderer->GetMesh("Assets/Sphere.gpmesh"));
+    mc->SetMesh(mRenderer->GetMesh(ASSETS_DIR "Assets/Sphere.gpmesh"));
     mEndSphere = new Actor(this);
     mEndSphere->SetPosition(Vector3(10000.0f, 0.0f, 0.0f));
     mEndSphere->SetScale(0.25f);
     mc = new MeshComponent(mEndSphere);
-    mc->SetMesh(mRenderer->GetMesh("Assets/Sphere.gpmesh"));
+    mc->SetMesh(mRenderer->GetMesh(ASSETS_DIR "Assets/Sphere.gpmesh"));
     mc->SetTextureIndex(1);
 }
 
@@ -390,11 +390,11 @@ void Game::ChangeCamera(int mode)
     mFPSActor->SetState(Actor::EPaused);
     mFPSActor->SetVisible(false);
     mCrosshair->SetVisible(false);
-    mFollowActor->SetState(Actor::EPaused);
-    mFollowActor->SetVisible(false);
-    mOrbitActor->SetState(Actor::EPaused);
-    mOrbitActor->SetVisible(false);
-    mSplineActor->SetState(Actor::EPaused);
+//    mFollowActor->SetState(Actor::EPaused);
+//    mFollowActor->SetVisible(false);
+//    mOrbitActor->SetState(Actor::EPaused);
+//    mOrbitActor->SetVisible(false);
+//    mSplineActor->SetState(Actor::EPaused);
 
     // Enable the camera specified by the mode
     switch (mode)
@@ -405,17 +405,17 @@ void Game::ChangeCamera(int mode)
         mFPSActor->SetVisible(true);
         mCrosshair->SetVisible(true);
         break;
-    case '2':
-        mFollowActor->SetState(Actor::EActive);
-        mFollowActor->SetVisible(true);
-        break;
-    case '3':
-        mOrbitActor->SetState(Actor::EActive);
-        mOrbitActor->SetVisible(true);
-        break;
-    case '4':
-        mSplineActor->SetState(Actor::EActive);
-        mSplineActor->RestartSpline();
-        break;
+//    case '2':
+//        mFollowActor->SetState(Actor::EActive);
+//        mFollowActor->SetVisible(true);
+//        break;
+//    case '3':
+//        mOrbitActor->SetState(Actor::EActive);
+//        mOrbitActor->SetVisible(true);
+//        break;
+//    case '4':
+//        mSplineActor->SetState(Actor::EActive);
+//        mSplineActor->RestartSpline();
+//        break;
     }
 }

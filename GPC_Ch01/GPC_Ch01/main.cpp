@@ -7,7 +7,7 @@
 
 #include "Game.hpp"
 
-#include "SDL2/SDL.h"
+#include "SDL.h"
 #include <cstdio>
 
 int main(int argc, const char * argv[])

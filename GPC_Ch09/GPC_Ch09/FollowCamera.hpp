@@ -1,13 +1,13 @@
+////
+////  FollowCamera.hpp
+////  GPC_Ch09
+////
+////  Created by Inoue Shinichi on 2022/08/18.
+////
 //
-//  FollowCamera.hpp
-//  GPC_Ch09
+//#ifndef FollowCamera_hpp
+//#define FollowCamera_hpp
 //
-//  Created by Inoue Shinichi on 2022/08/18.
+//#include <stdio.h>
 //
-
-#ifndef FollowCamera_hpp
-#define FollowCamera_hpp
-
-#include <stdio.h>
-
-#endif /* FollowCamera_hpp */
+//#endif /* FollowCamera_hpp */

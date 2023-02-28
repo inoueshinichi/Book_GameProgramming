@@ -7,7 +7,7 @@
 
 #include "CameraActor.hpp"
 #include "MoveComponent.hpp"
-#include "SDL2/SDL_scancode.h"
+#include "SDL_scancode.h"
 #include "Renderer.hpp"
 #include "Game.hpp"
 #include "AudioSystem.hpp"

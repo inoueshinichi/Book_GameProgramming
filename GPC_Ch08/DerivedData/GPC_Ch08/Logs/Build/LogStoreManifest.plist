@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>0E0D2A3C-3C68-4DB2-BC0B-683BA97C027D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0E0D2A3C-3C68-4DB2-BC0B-683BA97C027D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GPC_Ch08 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GPC_Ch08</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build GPC_Ch08</string>
+			<key>timeStartedRecording</key>
+			<real>699257051.01745498</real>
+			<key>timeStoppedRecording</key>
+			<real>699257051.34029806</real>
+			<key>title</key>
+			<string>Build GPC_Ch08</string>
+			<key>uniqueIdentifier</key>
+			<string>0E0D2A3C-3C68-4DB2-BC0B-683BA97C027D</string>
+		</dict>
+		<key>B5306498-52B6-44ED-BBA5-F11A47076DB0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B5306498-52B6-44ED-BBA5-F11A47076DB0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GPC_Ch08 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GPC_Ch08</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build GPC_Ch08</string>
+			<key>timeStartedRecording</key>
+			<real>699256052.96802199</real>
+			<key>timeStoppedRecording</key>
+			<real>699256053.368065</real>
+			<key>title</key>
+			<string>Build GPC_Ch08</string>
+			<key>uniqueIdentifier</key>
+			<string>B5306498-52B6-44ED-BBA5-F11A47076DB0</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

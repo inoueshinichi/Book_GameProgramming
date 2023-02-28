@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch08/GPC_Ch08/InputComponent.cpp \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch08/GPC_Ch08/InputComponent.hpp \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch08/GPC_Ch08/MoveComponent.hpp \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch08/GPC_Ch08/Component.hpp \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch08/GPC_Ch08/Actor.hpp \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch08/GPC_Ch08/Math.hpp \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch08/GPC_Ch08/InputSystem.hpp \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/External/sdl2/2.0.22/include/SDL2/SDL_scancode.h \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/External/sdl2/2.0.22/include/SDL2/SDL_stdinc.h \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/External/sdl2/2.0.22/include/SDL2/SDL_config.h \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/External/sdl2/2.0.22/include/SDL2/SDL_platform.h \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/External/sdl2/2.0.22/include/SDL2/begin_code.h \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/External/sdl2/2.0.22/include/SDL2/close_code.h \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/External/sdl2/2.0.22/include/SDL2/SDL_gamecontroller.h \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/External/sdl2/2.0.22/include/SDL2/SDL_error.h \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/External/sdl2/2.0.22/include/SDL2/SDL_rwops.h \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/External/sdl2/2.0.22/include/SDL2/SDL_sensor.h \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/External/sdl2/2.0.22/include/SDL2/SDL_joystick.h \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/External/sdl2/2.0.22/include/SDL2/SDL_mouse.h \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/External/sdl2/2.0.22/include/SDL2/SDL_video.h \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/External/sdl2/2.0.22/include/SDL2/SDL_pixels.h \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/External/sdl2/2.0.22/include/SDL2/SDL_endian.h \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/External/sdl2/2.0.22/include/SDL2/SDL_rect.h \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/External/sdl2/2.0.22/include/SDL2/SDL_surface.h \
+  /Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/External/sdl2/2.0.22/include/SDL2/SDL_blendmode.h

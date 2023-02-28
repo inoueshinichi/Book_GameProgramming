@@ -17,10 +17,10 @@ Ship::Ship(Game* game)
     // アニメーション・スプライトコンポーネントを作成
     AnimSpriteComponent* asc = new AnimSpriteComponent(this);
     std::vector<SDL_Texture*> anims = {
-        game->GetTexture(ASSET_DIR "Assets/Ship01.png"),
-        game->GetTexture(ASSET_DIR "Assets/Ship02.png"),
-        game->GetTexture(ASSET_DIR "Assets/Ship03.png"),
-        game->GetTexture(ASSET_DIR "Assets/Ship04.png"),
+        game->GetTexture(ASSETS_DIR "Assets/Ship01.png"),
+        game->GetTexture(ASSETS_DIR "Assets/Ship02.png"),
+        game->GetTexture(ASSETS_DIR "Assets/Ship03.png"),
+        game->GetTexture(ASSETS_DIR "Assets/Ship04.png"),
     };
     asc->SetAnimTextures(anims);
 }

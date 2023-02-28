@@ -8,6 +8,12 @@
 #ifndef PlaneActor_hpp
 #define PlaneActor_hpp
 
-#include <stdio.h>
+#include "Actor.hpp"
+
+class PlaneActor : public Actor
+{
+public:
+    PlaneActor(class Game* owner);
+};
 
 #endif /* PlaneActor_hpp */

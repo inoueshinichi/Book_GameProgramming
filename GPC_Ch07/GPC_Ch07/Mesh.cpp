@@ -12,7 +12,7 @@
 #include <fstream>
 #include <sstream>
 #include <rapidjson/document.h>
-#include <SDL2/SDL_log.h>
+#include <SDL_log.h>
 #include "Math.hpp"
 
 #include "Game.hpp"
@@ -82,7 +82,7 @@ bool Mesh::Load(const std::string& fileName, Renderer* renderer)
     {
         // Is this texture already loaded ?
         std::string texName = textures[i].GetString();
-        texName = ASSET_DIR + texName; // 7.25
+        texName = ASSETS_DIR + texName; // 7.25
         Texture* t = renderer->GetTexture(texName);
         if (t == nullptr)
         {
@@ -91,7 +91,7 @@ bool Mesh::Load(const std::string& fileName, Renderer* renderer)
             if (t == nullptr)
             {
                 // If it's still null, just use the default texture
-                t = renderer->GetTexture(ASSET_DIR "Assets/Default.png");
+                t = renderer->GetTexture(ASSETS_DIR "Assets/Default.png");
             }
         }
         mTextures.emplace_back(t);

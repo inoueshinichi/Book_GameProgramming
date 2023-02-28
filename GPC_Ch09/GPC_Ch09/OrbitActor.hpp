@@ -1,13 +1,13 @@
+////
+////  OrbitActor.hpp
+////  GPC_Ch09
+////
+////  Created by Inoue Shinichi on 2023/01/25.
+////
 //
-//  OrbitActor.hpp
-//  GPC_Ch09
+//#ifndef OrbitActor_hpp
+//#define OrbitActor_hpp
 //
-//  Created by Inoue Shinichi on 2023/01/25.
+//#include <stdio.h>
 //
-
-#ifndef OrbitActor_hpp
-#define OrbitActor_hpp
-
-#include <stdio.h>
-
-#endif /* OrbitActor_hpp */
+//#endif /* OrbitActor_hpp */

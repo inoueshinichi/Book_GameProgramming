@@ -15,6 +15,8 @@
 #include "MeshComponent.hpp"
 #include <GL/glew.h>
 
+#include "Game.hpp"
+
 Renderer::Renderer(Game* game)
     : mGame(game)
     , mSpriteShader(nullptr)
@@ -104,7 +106,7 @@ void Renderer::Shutdown()
     delete mSpriteShader;
     mMeshShader->Unload();
     delete mMeshShader;
-    SDL_GL_DeleteContex(mContext);
+    SDL_GL_DeleteContext(mContext);
     SDL_DestroyWindow(mWindow);
 }
 
@@ -160,7 +162,7 @@ void Renderer::Draw()
     glDisable(GL_DEPTH_TEST);
     // Enable alpha blending on the color buffer
     glEnable(GL_BLEND);
-    glBlendEquationSeparete(GL_FUNC_ADD, GL_FUNC_ADD);
+    glBlendEquationSeparate(GL_FUNC_ADD, GL_FUNC_ADD);
     glBlendFuncSeparate(GL_SRC_ALPHA,
                         GL_ONE_MINUS_SRC_ALPHA,
                         GL_ONE,
@@ -270,36 +272,38 @@ bool Renderer::LoadShaders()
 {
     // Create sprite shader
     mSpriteShader = new Shader();
-    if (!mSpriteShader->Load("Shaders/Sprite.vert", "Shaders/Sprite.frag"))
+    if (!mSpriteShader->Load(SHADERS_DIR "Shaders/Sprite.vert",
+                             SHADERS_DIR "Shaders/Sprite.frag"))
     {
         return false;
     }
     
     mSpriteShader->SetActive();
     // Set the view-projection matrix
-    Matrix4 viewProj = Matrix4::CreateSimpleViewProj(
-                                                     mScreenWidth,
+    Matrix4 viewProj = Matrix4::CreateSimpleViewProj(mScreenWidth,
                                                      mScreenHeight);
     mSpriteShader->SetMatrixUniform("uViewProj", viewProj);
     
     // Create basic mesh shader
     mMeshShader = new Shader();
-    if (!mMeshShader->Load("Shaders/Phong.ver", "Shaders/Phong.frag"))
+    if (!mMeshShader->Load(SHADERS_DIR "Shaders/Phong.vert",
+                           SHADERS_DIR "Shaders/Phong.frag"))
     {
         return false;
     }
     
     mMeshShader->SetActive();
     // Set the view-projection matrix
-    mView = Matrix4::CreateLook(Vector3::Zero,
-                                Vector3::UnitX,
-                                Vector3::UnitZ);
-    mProjection = Matrix4::CreatePerspectiveFOV(
-                                                Math::ToRadians(70.0f),
+    mView = Matrix4::CreateLookAt(Vector3::Zero,
+                                  Vector3::UnitX,
+                                  Vector3::UnitZ);
+    
+    mProjection = Matrix4::CreatePerspectiveFOV(Math::ToRadians(70.0f),
                                                 mScreenWidth,
                                                 mScreenHeight,
                                                 10.0f,
                                                 10000.0f);
+    
     mMeshShader->SetMatrixUniform("uViewProj", mView * mProjection);
     return true;
 }
@@ -339,13 +343,13 @@ void Renderer::SetLightUniforms(Shader* shader)
     // Directional light
     shader->SetVectorUniform("uDirLight.mDirection", mDirLight.mDirection);
     shader->SetVectorUniform("uDirLight.mDiffuseColor", mDirLight.mDiffuseColor);
-    shader->SetVectorUnform("uDirLight.mSpecColor", mDirLight.mSpecColor);
+    shader->SetVectorUniform("uDirLight.mSpecColor", mDirLight.mSpecColor);
 }
 
 Vector3 Renderer::Unproject(const Vector3& scenePoint) const
 {
     // Convert scenePoint to device coordinates (between -1 and +1)
-    Vector3 deficeCoord = scenePoint;
+    Vector3 deviceCoord = scenePoint;
     deviceCoord.x /= (mScreenWidth) * 0.5f;
     deviceCoord.y /= (mScreenHeight) * 0.5f;
     

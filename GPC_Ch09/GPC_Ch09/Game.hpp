@@ -15,6 +15,10 @@
 #include "Math.hpp"
 #include "SoundEvent.hpp"
 
+#define ASSETS_DIR "/Users/inoueshinichi/Desktop/MyGithub/Book_GameProgramming/GPC_Ch09/"
+
+#define SHADERS_DIR ASSETS_DIR
+
 class Game
 {
 public:
@@ -48,12 +52,12 @@ private:
     
     // Game-sepcific code
     class FPSActor* mFPSActor;
-    class FollowActor* mFollowActor;
-    class OrbitActor* mOrbitActor;
-    class SplineActor* mSplineActor;
+//    class FollowActor* mFollowActor;
+//    class OrbitActor* mOrbitActor;
+//    class SplineActor* mSplineActor;
     class Actor* mStartSphere;
     class Actor* mEndSphere;
-    class SpriteComponent* mCorsshair;
+    class SpriteComponent* mCrosshair;
     SoundEvent mMusicEvent;
     SoundEvent mReverbSnap;
     void ChangeCamera(int mode);

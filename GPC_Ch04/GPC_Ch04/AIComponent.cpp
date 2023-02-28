@@ -8,7 +8,7 @@
 #include "AIComponent.hpp"
 #include "AIState.hpp"
 
-#include <SDL2/SDL.h>
+#include <SDL.h>
 
 AIComponent::AIComponent(Actor* owner)
     : Component(owner)

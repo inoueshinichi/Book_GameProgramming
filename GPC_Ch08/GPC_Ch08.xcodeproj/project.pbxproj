@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7998FB3629ADAC040077C185 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799C5519289F77D300529372 /* OpenGL.framework */; };
+		7998FB3829ADAC240077C185 /* libSDL2-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7998FB3729ADAC210077C185 /* libSDL2-2.0.0.dylib */; };
+		7998FB3A29ADAC360077C185 /* libSDL2_image-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7998FB3929ADAC330077C185 /* libSDL2_image-2.0.0.dylib */; };
+		7998FB3C29ADAC440077C185 /* libGLEW.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7998FB3B29ADAC420077C185 /* libGLEW.2.2.0.dylib */; };
+		7998FB3E29ADAC5C0077C185 /* libSOIL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7998FB3D29ADAC590077C185 /* libSOIL.dylib */; };
 		799AFB6A2897A1E3001E9C7F /* SpriteComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799AFB4A2897A1E2001E9C7F /* SpriteComponent.cpp */; };
 		799AFB6B2897A1E4001E9C7F /* Ship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799AFB4D2897A1E2001E9C7F /* Ship.cpp */; };
 		799AFB6C2897A1E4001E9C7F /* MoveComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799AFB4F2897A1E2001E9C7F /* MoveComponent.cpp */; };
@@ -24,11 +29,6 @@
 		799AFB792897A1E4001E9C7F /* InputComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799AFB662897A1E3001E9C7F /* InputComponent.cpp */; };
 		799AFB7A2897A1E4001E9C7F /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799AFB692897A1E3001E9C7F /* Game.cpp */; };
 		799AFB7D2897A645001E9C7F /* InputSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799AFB7B2897A645001E9C7F /* InputSystem.cpp */; };
-		799C551A289F77D300529372 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799C5519289F77D300529372 /* OpenGL.framework */; };
-		799C551C289F780600529372 /* libSDL2-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 799C551B289F780600529372 /* libSDL2-2.0.0.dylib */; };
-		799C551E289F837D00529372 /* libSOIL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 799C551D289F837D00529372 /* libSOIL.dylib */; };
-		799C5522289F83E900529372 /* libGLEW.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 799C5521289F83E800529372 /* libGLEW.2.2.0.dylib */; };
-		799C552A289F884900529372 /* libSDL2_image-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 799C5529289F884700529372 /* libSDL2_image-2.0.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +44,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7998FB3729ADAC210077C185 /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "../External/sdl2/2.0.22/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
+		7998FB3929ADAC330077C185 /* libSDL2_image-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_image-2.0.0.dylib"; path = "../External/sdl2_image/2.6.0_1/lib/libSDL2_image-2.0.0.dylib"; sourceTree = "<group>"; };
+		7998FB3B29ADAC420077C185 /* libGLEW.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.2.0.dylib; path = ../External/glew/2.2.0_1/lib/libGLEW.2.2.0.dylib; sourceTree = "<group>"; };
+		7998FB3D29ADAC590077C185 /* libSOIL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSOIL.dylib; path = ../External/SOIL/lib/libSOIL.dylib; sourceTree = "<group>"; };
 		799AFB3F2897A18C001E9C7F /* GPC_Ch08 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GPC_Ch08; sourceTree = BUILT_PRODUCTS_DIR; };
 		799AFB492897A1E2001E9C7F /* Texture.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Texture.hpp; sourceTree = "<group>"; };
 		799AFB4A2897A1E2001E9C7F /* SpriteComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpriteComponent.cpp; sourceTree = "<group>"; };
@@ -79,9 +83,7 @@
 		799AFB7B2897A645001E9C7F /* InputSystem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InputSystem.cpp; sourceTree = "<group>"; };
 		799AFB7C2897A645001E9C7F /* InputSystem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InputSystem.hpp; sourceTree = "<group>"; };
 		799C5519289F77D300529372 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		799C551B289F780600529372 /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "../../../../../../usr/local/Cellar/sdl2/2.0.16/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
 		799C551D289F837D00529372 /* libSOIL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSOIL.dylib; path = ../../../../../../opt/local/lib/libSOIL.dylib; sourceTree = "<group>"; };
-		799C551F289F83A700529372 /* local */ = {isa = PBXFileReference; lastKnownFileType = folder; name = local; path = ../../../../../../usr/local; sourceTree = "<group>"; };
 		799C5521289F83E800529372 /* libGLEW.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.2.0.dylib; path = ../../../../../../usr/local/Cellar/glew/2.2.0_1/lib/libGLEW.2.2.0.dylib; sourceTree = "<group>"; };
 		799C5527289F87C100529372 /* Shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Shaders; sourceTree = "<group>"; };
 		799C5528289F87C200529372 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
@@ -94,11 +96,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				799C551C289F780600529372 /* libSDL2-2.0.0.dylib in Frameworks */,
-				799C5522289F83E900529372 /* libGLEW.2.2.0.dylib in Frameworks */,
-				799C551E289F837D00529372 /* libSOIL.dylib in Frameworks */,
-				799C552A289F884900529372 /* libSDL2_image-2.0.0.dylib in Frameworks */,
-				799C551A289F77D300529372 /* OpenGL.framework in Frameworks */,
+				7998FB3629ADAC040077C185 /* OpenGL.framework in Frameworks */,
+				7998FB3A29ADAC360077C185 /* libSDL2_image-2.0.0.dylib in Frameworks */,
+				7998FB3829ADAC240077C185 /* libSDL2-2.0.0.dylib in Frameworks */,
+				7998FB3C29ADAC440077C185 /* libGLEW.2.2.0.dylib in Frameworks */,
+				7998FB3E29ADAC5C0077C185 /* libSOIL.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +137,8 @@
 				799AFB642897A1E3001E9C7F /* Random.cpp */,
 				799AFB622897A1E3001E9C7F /* Shader.hpp */,
 				799AFB602897A1E3001E9C7F /* Shader.cpp */,
-				799AFB492897A1E2001E9C7F /* Texture.hpp */,
 				799AFB572897A1E2001E9C7F /* Texture.cpp */,
+				799AFB492897A1E2001E9C7F /* Texture.hpp */,
 				799AFB4B2897A1E2001E9C7F /* VertexArray.hpp */,
 				799AFB5D2897A1E3001E9C7F /* VertexArray.cpp */,
 				799AFB682897A1E3001E9C7F /* Game.hpp */,
@@ -168,11 +170,13 @@
 		799C5518289F77D300529372 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7998FB3D29ADAC590077C185 /* libSOIL.dylib */,
+				7998FB3B29ADAC420077C185 /* libGLEW.2.2.0.dylib */,
+				7998FB3929ADAC330077C185 /* libSDL2_image-2.0.0.dylib */,
+				7998FB3729ADAC210077C185 /* libSDL2-2.0.0.dylib */,
 				799C5529289F884700529372 /* libSDL2_image-2.0.0.dylib */,
 				799C5521289F83E800529372 /* libGLEW.2.2.0.dylib */,
-				799C551F289F83A700529372 /* local */,
 				799C551D289F837D00529372 /* libSOIL.dylib */,
-				799C551B289F780600529372 /* libSDL2-2.0.0.dylib */,
 				799C5519289F77D300529372 /* OpenGL.framework */,
 			);
 			name = Frameworks;
@@ -188,6 +192,7 @@
 				799AFB3B2897A18C001E9C7F /* Sources */,
 				799AFB3C2897A18C001E9C7F /* Frameworks */,
 				799AFB3D2897A18C001E9C7F /* CopyFiles */,
+				7998FB3F29ADADF60077C185 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -229,6 +234,26 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7998FB3F29ADADF60077C185 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\necho \"Run Script for copy file !!! by shinichi inoue\"\n\nif [ -d \"$BUILD_DIR/Debug\" ]; then\n    cp \"$SRCROOT\"/../External/glew/\"2.2.0_1\"/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/sdl2/\"2.0.22\"/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/sdl2_image/\"2.6.0_1\"/lib/*dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/SOIL/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/lowlevel/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/studio/lib/*.dylib $BUILD_DIR/Debug\nfi\n\nif [ -d \"$BUILD_DIR/Release\" ]; then\n    cp \"$SRCROOT\"/../External/glew/\"2.2.0_1\"/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/sdl2/\"2.0.22\"/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/sdl2_image/\"2.6.0_1\"/lib/*dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/SOIL/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/lowlevel/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/studio/lib/*.dylib $BUILD_DIR/Release\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		799AFB3B2897A18C001E9C7F /* Sources */ = {
@@ -375,15 +400,19 @@
 				DEVELOPMENT_TEAM = 9DLP5G32Z4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				HEADER_SEARCH_PATHS = (
-					/opt/local/include,
-					/usr/local/include,
+					"$(inherit)",
+					/Application/Xcode.app/contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../External/sdl2/\"2.0.22\"/include/SDL2",
+					"$(SRCROOT)/../External/sdl2_image/\"2.6.0_1\"/include",
+					"$(SRCROOT)/../External/glew/\"2.2.0_1\"/include",
+					"$(SRCROOT)/../External/SOIL/include",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/usr/local/Cellar/sdl2/2.0.16/lib,
-					/opt/local/lib,
-					/usr/local/Cellar/glew/2.2.0_1/lib,
-					/usr/local/Cellar/sdl2_image/2.6.0_1/lib,
+					"$(SRCROOT)/../External/sdl2/\"2.0.22\"/lib",
+					"$(SRCROOT)/../External/sdl2_image/\"2.6.0_1\"/lib",
+					"$(SRCROOT)/../External/glew/\"2.2.0_1\"/lib",
+					"$(SRCROOT)/../External/SOIL/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -397,15 +426,19 @@
 				DEVELOPMENT_TEAM = 9DLP5G32Z4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				HEADER_SEARCH_PATHS = (
-					/opt/local/include,
-					/usr/local/include,
+					"$(inherit)",
+					/Application/Xcode.app/contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../External/sdl2/\"2.0.22\"/include/SDL2",
+					"$(SRCROOT)/../External/sdl2_image/\"2.6.0_1\"/include",
+					"$(SRCROOT)/../External/glew/\"2.2.0_1\"/include",
+					"$(SRCROOT)/../External/SOIL/include",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/usr/local/Cellar/sdl2/2.0.16/lib,
-					/opt/local/lib,
-					/usr/local/Cellar/glew/2.2.0_1/lib,
-					/usr/local/Cellar/sdl2_image/2.6.0_1/lib,
+					"$(SRCROOT)/../External/sdl2/\"2.0.22\"/lib",
+					"$(SRCROOT)/../External/sdl2_image/\"2.6.0_1\"/lib",
+					"$(SRCROOT)/../External/glew/\"2.2.0_1\"/lib",
+					"$(SRCROOT)/../External/SOIL/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

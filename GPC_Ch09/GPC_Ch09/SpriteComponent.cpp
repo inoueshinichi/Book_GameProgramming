@@ -12,6 +12,8 @@
 #include "Game.hpp"
 #include "Renderer.hpp"
 
+#include "SDL2/SDL.h"
+
 SpriteComponent::SpriteComponent(Actor* owner, int drawOrder)
     :Component(owner)
     ,mTexture(nullptr)
@@ -49,7 +51,7 @@ void SpriteComponent::Draw(Shader* shader)
         mTexture->SetActive();
 
         // Draw quad
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr);
+        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr); // from Shader.hpp
     }
 }
 

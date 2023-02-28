@@ -15,6 +15,8 @@
 #include <SDL2/SDL_log.h>
 #include "Math.hpp"
 
+#include "Game.hpp"
+
 Mesh::Mesh()
     : mVertexArray(nullptr)
     , mRadius(0.0f)
@@ -79,6 +81,8 @@ bool Mesh::Load(const std::string& fileName, Renderer* renderer)
     {
         // Is this texture alreadly loaded ?
         std::string texName = textures[i].GetString();
+        texName = std::string(ASSETS_DIR) + texName;
+        std::printf("Loading texture: %s\n", texName.c_str());
         Texture* t = renderer->GetTexture(texName);
         if (t == nullptr)
         {
@@ -87,7 +91,7 @@ bool Mesh::Load(const std::string& fileName, Renderer* renderer)
             if (t == nullptr)
             {
                 // If it's still null, just use the default texture
-                t = renderer->GetTexture("Assets/Default.png");
+                t = renderer->GetTexture(ASSETS_DIR "Assets/Default.png");
             }
         }
         mTextures.emplace_back(t);
@@ -156,8 +160,7 @@ bool Mesh::Load(const std::string& fileName, Renderer* renderer)
             vertices.data(),
             static_cast<unsigned>(vertices.size()) / vertSize,
             indices.data(),
-            static_cast<unsigned>(indices.size())
-                                   );
+            static_cast<unsigned>(indices.size()));
     
     return true;
 }

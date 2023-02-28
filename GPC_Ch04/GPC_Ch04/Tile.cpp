@@ -42,23 +42,23 @@ void Tile::UpdateTexture()
 	switch (mTileState)
 	{
 		case EStart:
-			text = ASSET_DIR "Assets/TileTan.png";
+			text = ASSETS_DIR "Assets/TileTan.png";
 			break;
 		case EBase:
-			text = ASSET_DIR "Assets/TileGreen.png";
+			text = ASSETS_DIR "Assets/TileGreen.png";
 			break;
 		case EPath:
 			if (mSelected)
-				text = ASSET_DIR "Assets/TileGreySelected.png";
+				text = ASSETS_DIR "Assets/TileGreySelected.png";
 			else
-				text = ASSET_DIR "Assets/TileGrey.png";
+				text = ASSETS_DIR "Assets/TileGrey.png";
 			break;
 		case EDefault:
 		default:
 			if (mSelected)
-                text = ASSET_DIR "Assets/TileBrownSelected.png";
+                text = ASSETS_DIR "Assets/TileBrownSelected.png";
 			else
-				text = ASSET_DIR "Assets/TileBrown.png";
+				text = ASSETS_DIR "Assets/TileBrown.png";
 			break;
 	}
 	mSprite->SetTexture(GetGame()->GetTexture(text));

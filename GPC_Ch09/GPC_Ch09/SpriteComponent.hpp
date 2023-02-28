@@ -9,7 +9,7 @@
 #define SpriteComponent_hpp
 
 #include "Component.hpp"
-#include "SDL2/SDL.h"
+
 
 class SpriteComponent : public Component
 {

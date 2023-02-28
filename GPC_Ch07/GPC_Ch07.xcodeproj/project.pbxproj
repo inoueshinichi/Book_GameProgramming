@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		79298D7F298524640003868E /* libfmod.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79ADB6FF29851F7900CEC98D /* libfmod.dylib */; };
-		79298D80298524770003868E /* libfmodstudio.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79ADB70129851F7C00CEC98D /* libfmodstudio.dylib */; };
 		79961166288E3C570085C2A8 /* CircleComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79961147288E3C560085C2A8 /* CircleComponent.cpp */; };
 		79961167288E3C570085C2A8 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7996114D288E3C560085C2A8 /* Shader.cpp */; };
 		79961168288E3C570085C2A8 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7996114E288E3C570085C2A8 /* Texture.cpp */; };
@@ -27,6 +25,8 @@
 		79961175288E3C570085C2A8 /* Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79961163288E3C570085C2A8 /* Renderer.cpp */; };
 		79961178288E3F830085C2A8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79961177288E3F830085C2A8 /* OpenGL.framework */; };
 		79961181288E405D0085C2A8 /* AudioSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7996117F288E405D0085C2A8 /* AudioSystem.cpp */; };
+		7998FB4529ADC18D0077C185 /* libfmod.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7998FB4429ADC18D0077C185 /* libfmod.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		7998FB4729ADC1900077C185 /* libfmodstudio.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7998FB4629ADC1900077C185 /* libfmodstudio.dylib */; };
 		799B1A6D2891191F00B65FA0 /* AudioComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799B1A6B2891191F00B65FA0 /* AudioComponent.cpp */; };
 		799BAAE32890ECBA00CAF981 /* SoundEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799BAAE12890ECBA00CAF981 /* SoundEvent.cpp */; };
 		79E1FE1429851C3900781C7C /* libSOIL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E1FE1329851C3900781C7C /* libSOIL.dylib */; };
@@ -39,7 +39,7 @@
 		79961139288E3A400085C2A8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/share/man/man1;
 			dstSubfolderSpec = 0;
 			files = (
 			);
@@ -48,11 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		79298D7B298522C30003868E /* libfmodL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmodL.dylib; path = "../External/FMOD/FMOD Programmers API/api/lowlevel/lib/libfmodL.dylib"; sourceTree = "<group>"; };
-		79298D7D298522CA0003868E /* libfmodstudioL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmodstudioL.dylib; path = "../External/FMOD/FMOD Programmers API/api/studio/lib/libfmodstudioL.dylib"; sourceTree = "<group>"; };
 		7996113B288E3A400085C2A8 /* GPC_Ch07 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GPC_Ch07; sourceTree = BUILT_PRODUCTS_DIR; };
-		79961145288E3C490085C2A8 /* Shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Shaders; sourceTree = "<group>"; };
-		79961146288E3C490085C2A8 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
 		79961147288E3C560085C2A8 /* CircleComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CircleComponent.cpp; sourceTree = "<group>"; };
 		79961148288E3C560085C2A8 /* Texture.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Texture.hpp; sourceTree = "<group>"; };
 		79961149288E3C560085C2A8 /* CircleComponent.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CircleComponent.hpp; sourceTree = "<group>"; };
@@ -87,13 +83,13 @@
 		79961177288E3F830085C2A8 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		7996117F288E405D0085C2A8 /* AudioSystem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AudioSystem.cpp; sourceTree = "<group>"; };
 		79961180288E405D0085C2A8 /* AudioSystem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AudioSystem.hpp; sourceTree = "<group>"; };
+		7998FB4429ADC18D0077C185 /* libfmod.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmod.dylib; path = "../External/FMOD/FMOD Programmers API/api/lowlevel/lib/libfmod.dylib"; sourceTree = "<group>"; };
+		7998FB4629ADC1900077C185 /* libfmodstudio.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmodstudio.dylib; path = "../External/FMOD/FMOD Programmers API/api/studio/lib/libfmodstudio.dylib"; sourceTree = "<group>"; };
 		799B1A6B2891191F00B65FA0 /* AudioComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AudioComponent.cpp; sourceTree = "<group>"; };
 		799B1A6C2891191F00B65FA0 /* AudioComponent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AudioComponent.hpp; sourceTree = "<group>"; };
 		799BAAE12890ECBA00CAF981 /* SoundEvent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SoundEvent.cpp; sourceTree = "<group>"; };
 		799BAAE22890ECBA00CAF981 /* SoundEvent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SoundEvent.hpp; sourceTree = "<group>"; };
 		799BAAE82890FC6300CAF981 /* GPC_Ch07.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GPC_Ch07.entitlements; sourceTree = "<group>"; };
-		79ADB6FF29851F7900CEC98D /* libfmod.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmod.dylib; path = "../External/FMOD/FMOD Programmers API/api/lowlevel/lib/libfmod.dylib"; sourceTree = "<group>"; };
-		79ADB70129851F7C00CEC98D /* libfmodstudio.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmodstudio.dylib; path = "../External/FMOD/FMOD Programmers API/api/studio/lib/libfmodstudio.dylib"; sourceTree = "<group>"; };
 		79E1FE1329851C3900781C7C /* libSOIL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSOIL.dylib; path = ../External/SOIL/lib/libSOIL.dylib; sourceTree = "<group>"; };
 		79E1FE1529851C3C00781C7C /* libSDL2_image-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_image-2.0.0.dylib"; path = "../External/sdl2_image/2.6.0_1/lib/libSDL2_image-2.0.0.dylib"; sourceTree = "<group>"; };
 		79E1FE1729851C4100781C7C /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "../External/sdl2/2.0.22/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
@@ -105,13 +101,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79298D80298524770003868E /* libfmodstudio.dylib in Frameworks */,
-				79298D7F298524640003868E /* libfmod.dylib in Frameworks */,
 				79961178288E3F830085C2A8 /* OpenGL.framework in Frameworks */,
 				79E1FE1A29851C4800781C7C /* libGLEW.2.2.0.dylib in Frameworks */,
 				79E1FE1629851C3C00781C7C /* libSDL2_image-2.0.0.dylib in Frameworks */,
 				79E1FE1829851C4100781C7C /* libSDL2-2.0.0.dylib in Frameworks */,
 				79E1FE1429851C3900781C7C /* libSOIL.dylib in Frameworks */,
+				7998FB4529ADC18D0077C185 /* libfmod.dylib in Frameworks */,
+				7998FB4729ADC1900077C185 /* libfmodstudio.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,8 +117,6 @@
 		79961132288E3A400085C2A8 = {
 			isa = PBXGroup;
 			children = (
-				79961146288E3C490085C2A8 /* Assets */,
-				79961145288E3C490085C2A8 /* Shaders */,
 				7996113D288E3A400085C2A8 /* GPC_Ch07 */,
 				7996113C288E3A400085C2A8 /* Products */,
 				79961176288E3F830085C2A8 /* Frameworks */,
@@ -185,10 +179,8 @@
 		79961176288E3F830085C2A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				79298D7D298522CA0003868E /* libfmodstudioL.dylib */,
-				79298D7B298522C30003868E /* libfmodL.dylib */,
-				79ADB70129851F7C00CEC98D /* libfmodstudio.dylib */,
-				79ADB6FF29851F7900CEC98D /* libfmod.dylib */,
+				7998FB4629ADC1900077C185 /* libfmodstudio.dylib */,
+				7998FB4429ADC18D0077C185 /* libfmod.dylib */,
 				79E1FE1929851C4700781C7C /* libGLEW.2.2.0.dylib */,
 				79E1FE1729851C4100781C7C /* libSDL2-2.0.0.dylib */,
 				79E1FE1529851C3C00781C7C /* libSDL2_image-2.0.0.dylib */,
@@ -267,7 +259,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ -d \"$BUILD_DIR/Debug\" ]; then\n    cp \"$SRCROOT\"/../External/glew/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/sdl2/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/lowlevel/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/studio/lib/*.dylib $BUILD_DIR/Debug\nfi\n\nif [ -d \"$BUILD_DIR/Release\" ]; then\n    cp \"$SRCROOT\"/../External/glew/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/sdl2/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/lowlevel/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/studio/lib/*.dylib $BUILD_DIR/Release\nfi\n\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\necho \"Run Script for copy file !!! by shinichi inoue\"\n\nif [ -d \"$BUILD_DIR/Debug\" ]; then\n    cp \"$SRCROOT\"/../External/glew/\"2.2.0_1\"/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/sdl2/\"2.0.22\"/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/sdl2_image/\"2.6.0_1\"/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/SOIL/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/lowlevel/lib/*.dylib $BUILD_DIR/Debug\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/studio/lib/*.dylib $BUILD_DIR/Debug\nfi\n\nif [ -d \"$BUILD_DIR/Release\" ]; then\n    cp \"$SRCROOT\"/../External/glew/\"2.2.0_1\"/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/sdl2/\"2.0.22\"/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/sdl2_image/\"2.6.0_1\"/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/SOIL/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/lowlevel/lib/*.dylib $BUILD_DIR/Release\n    cp \"$SRCROOT\"/../External/FMOD/\"FMOD Programmers API\"/api/studio/lib/*.dylib $BUILD_DIR/Release\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -418,7 +410,8 @@
 				DEVELOPMENT_TEAM = 9DLP5G32Z4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../External/sdl2/\"2.0.22\"/include/**",
+					"$(inherited)",
+					"$(SRCROOT)/../External/sdl2/\"2.0.22\"/include/SDL2/**",
 					"$(SRCROOT)/../External/sdl2_image/\"2.6.0_1\"/include",
 					"$(SRCROOT)/../External/SOIL/include",
 					"$(SRCROOT)/../External/glew/\"2.2.0_1\"/include",
@@ -447,7 +440,8 @@
 				DEVELOPMENT_TEAM = 9DLP5G32Z4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../External/sdl2/\"2.0.22\"/include/**",
+					"$(inherited)",
+					"$(SRCROOT)/../External/sdl2/\"2.0.22\"/include/SDL2/**",
 					"$(SRCROOT)/../External/sdl2_image/\"2.6.0_1\"/include",
 					"$(SRCROOT)/../External/SOIL/include",
 					"$(SRCROOT)/../External/glew/\"2.2.0_1\"/include",

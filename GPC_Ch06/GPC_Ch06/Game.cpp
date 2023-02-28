@@ -142,13 +142,13 @@ void Game::LoadData()
     q = Quaternion::Concatenate(q, Quaternion(Vector3::UnitZ, Math::Pi + Math::Pi/4.0f));
     a->SetRotation(q);
     MeshComponent* mc = new MeshComponent(a);
-    mc->SetMesh(mRenderer->GetMesh(ASSET_DIR "Assets/Cube.gpmesh"));
+    mc->SetMesh(mRenderer->GetMesh(ASSETS_DIR "Assets/Cube.gpmesh"));
     // sphere
     a = new Actor(this);
     a->SetPosition(Vector3(200.0f, -75.0f, 0.0f));
     a->SetScale(3.0f);
     mc = new MeshComponent(a);
-    mc->SetMesh(mRenderer->GetMesh(ASSET_DIR "Assets/Sphere.gpmesh"));
+    mc->SetMesh(mRenderer->GetMesh(ASSETS_DIR "Assets/Sphere.gpmesh"));
     
     // Setup floor
     const float start = -1250.0f;
@@ -202,13 +202,13 @@ void Game::LoadData()
     a = new Actor(this);
     a->SetPosition(Vector3(-350.0f, -350.0f, 0.0f));
     SpriteComponent* sc = new SpriteComponent(a);
-    sc->SetTexture(mRenderer->GetTexture(ASSET_DIR "Assets/HealthBar.png"));
+    sc->SetTexture(mRenderer->GetTexture(ASSETS_DIR "Assets/HealthBar.png"));
 
     a = new Actor(this);
     a->SetPosition(Vector3(375.0f, -275.0f, 0.0f));
     a->SetScale(0.75f);
     sc = new SpriteComponent(a);
-    sc->SetTexture(mRenderer->GetTexture(ASSET_DIR "Assets/Radar.png"));
+    sc->SetTexture(mRenderer->GetTexture(ASSETS_DIR "Assets/Radar.png"));
     
 }
 

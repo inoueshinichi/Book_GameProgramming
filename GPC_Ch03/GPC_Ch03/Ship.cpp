@@ -17,7 +17,7 @@ Ship::Ship(Game* game)
     , mLaserCooldown(0.0f)
 {
     SpriteComponent* sc = new SpriteComponent(this, 150);
-    sc->SetTexture(game->GetTexture(ASSET_DIR "Assets/Ship.png"));
+    sc->SetTexture(game->GetTexture(ASSETS_DIR "Assets/Ship.png"));
     
     InputComponent* ic = new InputComponent(this);
     ic->SetForwardKey(SDL_SCANCODE_W);

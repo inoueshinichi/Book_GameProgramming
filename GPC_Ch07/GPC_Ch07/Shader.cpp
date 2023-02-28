@@ -7,7 +7,7 @@
 
 #include "Shader.hpp"
 #include "Texture.hpp"
-#include <SDL2/SDL.h>
+#include <SDL.h>
 #include <fstream>
 #include <sstream>
 

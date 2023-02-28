@@ -251,8 +251,8 @@ bool Renderer::LoadShaders()
 {
     // Create sprite shader
     mSpriteShader = new Shader();
-    if (!mSpriteShader->Load(SHADER_DIR "Shaders/Sprite.vert",
-                             SHADER_DIR "Shaders/Sprite.frag"))
+    if (!mSpriteShader->Load(SHADERS_DIR "Shaders/Sprite.vert",
+                             SHADERS_DIR "Shaders/Sprite.frag"))
     {
         return false;
     }
@@ -264,8 +264,8 @@ bool Renderer::LoadShaders()
     
     // Create basic mesh shader
     mMeshShader = new Shader();
-    if (!mMeshShader->Load(SHADER_DIR "Shaders/Phong.vert",
-                           SHADER_DIR "Shaders/Phong.frag"))
+    if (!mMeshShader->Load(SHADERS_DIR "Shaders/Phong.vert",
+                           SHADERS_DIR "Shaders/Phong.frag"))
     {
         return false;
     }

@@ -14,7 +14,7 @@ Enemy::Enemy(Game* game)
 	game->GetEnemies().emplace_back(this);
 	
 	SpriteComponent* sc = new SpriteComponent(this);
-	sc->SetTexture(game->GetTexture(ASSET_DIR "Assets/Airplane.png"));
+	sc->SetTexture(game->GetTexture(ASSETS_DIR "Assets/Airplane.png"));
 	// Set position at start tile
 	SetPosition(GetGame()->GetGrid()->GetStartTile()->GetPosition());
 	// Setup a nav component at the start tile

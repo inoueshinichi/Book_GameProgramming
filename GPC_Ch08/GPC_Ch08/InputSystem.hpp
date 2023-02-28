@@ -8,9 +8,9 @@
 #ifndef InputSystem_hpp
 #define InputSystem_hpp
 
-#include <SDL2/SDL_scancode.h>
-#include <SDL2/SDL_gamecontroller.h>
-#include <SDL2/SDL_mouse.h>
+#include <SDL_scancode.h>
+#include <SDL_gamecontroller.h>
+#include <SDL_mouse.h>
 #include "Math.hpp"
 
 // ボタン状態

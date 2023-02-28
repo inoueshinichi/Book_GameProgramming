@@ -10,7 +10,7 @@
 
 #include <vector>
 #include "Math.hpp"
-#include <cstdint>
+
 
 class Actor
 {
@@ -39,11 +39,25 @@ public:
     
     // Getters/setters
     const Vector3& GetPosition() const { return mPosition; }
-    void SetPosition(const Vector3& pos) { mPosition = pos; mRecomputeWorldTransform = true; }
+    void SetPosition(const Vector3& pos)
+    {
+        mPosition = pos;
+        mRecomputeWorldTransform = true;
+        
+    }
     float GetScale() const { return mScale; }
-    void SetScale(float scale) { mScale = scale;  mRecomputeWorldTransform = true; }
+    void SetScale(float scale)
+    {
+        mScale = scale;
+        mRecomputeWorldTransform = true;
+        
+    }
     const Quaternion& GetRotation() const { return mRotation; }
-    void SetRotation(const Quaternion& rotation) { mRotation = rotation;  mRecomputeWorldTransform = true; }
+    void SetRotation(const Quaternion& rotation)
+    {
+        mRotation = rotation;
+        mRecomputeWorldTransform = true;
+    }
 
     void ComputeWorldTransform();
     const Matrix4& GetWorldTransform() const { return mWorldTransform; }

@@ -9,6 +9,7 @@
 #include "Game.hpp"
 #include "Component.hpp"
 #include <algorithm>
+#include <cstdint>
 
 Actor::Actor(Game* game)
     : mState(EActive)

@@ -6,7 +6,7 @@
 //
 
 #include "AudioSystem.hpp"
-#include <SDL2/SDL_log.h>
+#include <SDL_log.h>
 #include <fmod_studio.hpp>
 #include <fmod_errors.h>
 #include <vector>
@@ -63,8 +63,8 @@ bool AudioSystem::Initialize()
     mSystem->getLowLevelSystem(&mLowLevelSystem); // ポインタ取得
     
     // マスターバンクをロードする(stringsが先)
-    LoadBank(ASSET_DIR "Assets/Master Bank.strings.bank");
-    LoadBank(ASSET_DIR "Assets/Master Bank.bank");
+    LoadBank(ASSETS_DIR "Assets/Master Bank.strings.bank");
+    LoadBank(ASSETS_DIR "Assets/Master Bank.bank");
     
     return true;
 }

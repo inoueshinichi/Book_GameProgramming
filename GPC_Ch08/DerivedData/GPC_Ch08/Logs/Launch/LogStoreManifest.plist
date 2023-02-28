@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>59CB9B9B-184E-4135-A4C7-2A166FF020A7</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>0E0D2A3C-3C68-4DB2-BC0B-683BA97C027D</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-GPC_Ch08-2023.02.28_15-04-11-+0900.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GPC_Ch08 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GPC_Ch08</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run GPC_Ch08</string>
+			<key>timeStartedRecording</key>
+			<real>699257051.01731598</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run GPC_Ch08</string>
+			<key>uniqueIdentifier</key>
+			<string>59CB9B9B-184E-4135-A4C7-2A166FF020A7</string>
+		</dict>
+		<key>6CE5B5C4-B4C6-4712-9FE9-3AA7F6880BC0</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>B5306498-52B6-44ED-BBA5-F11A47076DB0</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-GPC_Ch08-2023.02.28_14-47-32-+0900.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GPC_Ch08 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GPC_Ch08</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run GPC_Ch08</string>
+			<key>timeStartedRecording</key>
+			<real>699256052.96777797</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run GPC_Ch08</string>
+			<key>uniqueIdentifier</key>
+			<string>6CE5B5C4-B4C6-4712-9FE9-3AA7F6880BC0</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

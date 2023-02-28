@@ -10,7 +10,7 @@
 
 #include "Component.hpp"
 #include "Shader.hpp"
-#include "SDL2/SDL.h"
+#include "SDL.h"
 
 class SpriteComponent : public Component
 {

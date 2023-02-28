@@ -9,7 +9,7 @@ Tower::Tower(Game* game)
 	: Actor(game)
 {
 	SpriteComponent* sc = new SpriteComponent(this, 200);
-	sc->SetTexture(game->GetTexture(ASSET_DIR "Assets/Tower.png"));
+	sc->SetTexture(game->GetTexture(ASSETS_DIR "Assets/Tower.png"));
 	
 	mMove = new MoveComponent(this);
 	//mMove->SetAngularSpeed(Math::Pi);

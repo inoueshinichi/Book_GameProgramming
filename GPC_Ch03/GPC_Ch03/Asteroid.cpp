@@ -27,7 +27,7 @@ Asteroid::Asteroid(Game* game)
     
     // スプライト
     SpriteComponent* sc = new SpriteComponent(this);
-    sc->SetTexture(game->GetTexture(ASSET_DIR "Assets/Asteroid.png"));
+    sc->SetTexture(game->GetTexture(ASSETS_DIR "Assets/Asteroid.png"));
     
     // 移動機能
     MoveComponent* mc = new MoveComponent(this);

@@ -49,6 +49,14 @@ bool Shader::Load(const std::string& vertName, const std::string& fragName)
     return true;
 }
 
+void Shader::Unload()
+{
+    // Delete the program/shaders
+    glDeleteProgram(mShaderProgram);
+    glDeleteShader(mVertexShader);
+    glDeleteShader(mFragShader);
+}
+
 void Shader::SetActive()
 {
     // Set this program as the active one
@@ -60,7 +68,7 @@ void Shader::SetMatrixUniform(const char *name, const Matrix4 &matrix)
     // Find the uniform by this name
     GLuint loc = glGetUniformLocation(mShaderProgram, name);
     // Setd the matrix data to the uniform
-    glUniformMatrix3fv(loc, 1, GL_TRUE, matrix.GetAsFloatPtr());
+    glUniformMatrix4fv(loc, 1, GL_TRUE, matrix.GetAsFloatPtr());
 }
 
 void Shader::SetVectorUniform(const char *name, const Vector3 &vector)

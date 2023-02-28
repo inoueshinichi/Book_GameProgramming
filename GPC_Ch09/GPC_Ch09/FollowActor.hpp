@@ -1,13 +1,13 @@
+////
+////  FollowActor.hpp
+////  GPC_Ch09
+////
+////  Created by Inoue Shinichi on 2023/01/25.
+////
 //
-//  FollowActor.hpp
-//  GPC_Ch09
+//#ifndef FollowActor_hpp
+//#define FollowActor_hpp
 //
-//  Created by Inoue Shinichi on 2023/01/25.
+//#include <stdio.h>
 //
-
-#ifndef FollowActor_hpp
-#define FollowActor_hpp
-
-#include <stdio.h>
-
-#endif /* FollowActor_hpp */
+//#endif /* FollowActor_hpp */
