@@ -349,12 +349,12 @@ void Renderer::SetLightUniforms(Shader* shader)
 Vector3 Renderer::Unproject(const Vector3& scenePoint) const
 {
     // Convert scenePoint to device coordinates (between -1 and +1)
-    Vector3 deviceCoord = scenePoint;
+    Vector3 deviceCoord = scenePoint; // NDC
     deviceCoord.x /= (mScreenWidth) * 0.5f;
     deviceCoord.y /= (mScreenHeight) * 0.5f;
     
     // Transform vector by unprojection matrix
-    Matrix4 unprojection = mView * mProjection;
+    Matrix4 unprojection = mView * mProjection; // ビュー行列と射影行列の積の逆行列が逆射影行列
     unprojection.Invert();
     return Vector3::TransformWithPerspDiv(deviceCoord, unprojection);
 }

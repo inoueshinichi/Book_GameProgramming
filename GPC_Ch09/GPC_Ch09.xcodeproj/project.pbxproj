@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		7998FB3329AD90590077C185 /* CameraComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7998FB3129AD90590077C185 /* CameraComponent.cpp */; };
 		7998FB3529ADA6670077C185 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7998FB3429ADA6670077C185 /* OpenGL.framework */; };
+		7998FB4C29AE03F60077C185 /* OrbitCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7998FB4A29AE03F60077C185 /* OrbitCamera.cpp */; };
 		7999956D297267E600DD252B /* SplineActor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7999956B297267E500DD252B /* SplineActor.cpp */; };
 		799DF48328A0A88700DDA60C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799DF48228A0A88700DDA60C /* main.cpp */; };
+		799EA21129B751FA00D44254 /* SplineCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799EA20F29B751FA00D44254 /* SplineCamera.cpp */; };
 		79A24E3729AA33540097EDDB /* libfmod.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A24E3629AA33540097EDDB /* libfmod.dylib */; };
 		79A24E3929AA335E0097EDDB /* libfmodstudio.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A24E3829AA335E0097EDDB /* libfmodstudio.dylib */; };
 		79A24E3B29AA336F0097EDDB /* libGLEW.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A24E3A29AA336F0097EDDB /* libGLEW.2.2.0.dylib */; };
@@ -72,11 +74,15 @@
 		7998FB3129AD90590077C185 /* CameraComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CameraComponent.cpp; sourceTree = "<group>"; };
 		7998FB3229AD90590077C185 /* CameraComponent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CameraComponent.hpp; sourceTree = "<group>"; };
 		7998FB3429ADA6670077C185 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		7998FB4A29AE03F60077C185 /* OrbitCamera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OrbitCamera.cpp; sourceTree = "<group>"; };
+		7998FB4B29AE03F60077C185 /* OrbitCamera.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OrbitCamera.hpp; sourceTree = "<group>"; };
 		7999956B297267E500DD252B /* SplineActor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SplineActor.cpp; sourceTree = "<group>"; };
 		7999956C297267E600DD252B /* SplineActor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SplineActor.hpp; sourceTree = "<group>"; };
 		799DF47F28A0A88700DDA60C /* GPC_Ch09 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GPC_Ch09; sourceTree = BUILT_PRODUCTS_DIR; };
 		799DF48228A0A88700DDA60C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		799DF48928A0A8B000DDA60C /* GPC_Ch09.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GPC_Ch09.entitlements; sourceTree = "<group>"; };
+		799EA20F29B751FA00D44254 /* SplineCamera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SplineCamera.cpp; sourceTree = "<group>"; };
+		799EA21029B751FA00D44254 /* SplineCamera.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SplineCamera.hpp; sourceTree = "<group>"; };
 		79A24E3629AA33540097EDDB /* libfmod.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmod.dylib; path = "../External/FMOD/FMOD Programmers API/api/lowlevel/lib/libfmod.dylib"; sourceTree = "<group>"; };
 		79A24E3829AA335E0097EDDB /* libfmodstudio.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmodstudio.dylib; path = "../External/FMOD/FMOD Programmers API/api/studio/lib/libfmodstudio.dylib"; sourceTree = "<group>"; };
 		79A24E3A29AA336F0097EDDB /* libGLEW.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.2.0.dylib; path = ../External/glew/2.2.0_1/lib/libGLEW.2.2.0.dylib; sourceTree = "<group>"; };
@@ -219,8 +225,12 @@
 				79FF2AF428AE1D470019B632 /* FPSActor.hpp */,
 				7999956B297267E500DD252B /* SplineActor.cpp */,
 				7999956C297267E600DD252B /* SplineActor.hpp */,
+				799EA21029B751FA00D44254 /* SplineCamera.hpp */,
+				799EA20F29B751FA00D44254 /* SplineCamera.cpp */,
 				79AEDBA929813E1700CDB14E /* OrbitActor.cpp */,
 				79AEDBAA29813E1700CDB14E /* OrbitActor.hpp */,
+				7998FB4A29AE03F60077C185 /* OrbitCamera.cpp */,
+				7998FB4B29AE03F60077C185 /* OrbitCamera.hpp */,
 			);
 			path = GPC_Ch09;
 			sourceTree = "<group>";
@@ -331,12 +341,14 @@
 				79FF2ACC28AE05420019B632 /* MoveComponent.cpp in Sources */,
 				79FF2AC028AE04F70019B632 /* VertexArray.cpp in Sources */,
 				79FF2AD228AE05C00019B632 /* AudioComponent.cpp in Sources */,
+				799EA21129B751FA00D44254 /* SplineCamera.cpp in Sources */,
 				79FF2AD828AE05EE0019B632 /* Mesh.cpp in Sources */,
 				79FF2ADE28AE06380019B632 /* CameraActor.cpp in Sources */,
 				79FF2AE128AE06480019B632 /* FPSCamera.cpp in Sources */,
 				79FF2AE728AE06C90019B632 /* SoundEvent.cpp in Sources */,
 				79FF2AEA28AE06DA0019B632 /* Math.cpp in Sources */,
 				79FF2AB728AE04C30019B632 /* Component.cpp in Sources */,
+				7998FB4C29AE03F60077C185 /* OrbitCamera.cpp in Sources */,
 				799DF48328A0A88700DDA60C /* main.cpp in Sources */,
 				79FF2ABD28AE04E40019B632 /* Shader.cpp in Sources */,
 				79AEDBAB29813E1700CDB14E /* OrbitActor.cpp in Sources */,

@@ -52,9 +52,9 @@ private:
     
     // Game-sepcific code
     class FPSActor* mFPSActor;
-//    class FollowActor* mFollowActor;
-//    class OrbitActor* mOrbitActor;
-//    class SplineActor* mSplineActor;
+    class FollowActor* mFollowActor;
+    class OrbitActor* mOrbitActor;
+    class SplineActor* mSplineActor;
     class Actor* mStartSphere;
     class Actor* mEndSphere;
     class SpriteComponent* mCrosshair;

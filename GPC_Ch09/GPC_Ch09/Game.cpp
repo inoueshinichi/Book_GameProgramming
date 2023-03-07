@@ -133,9 +133,9 @@ void Game::HandleKeyPress(int key)
         break;
     }
     case '1':
-//    case '2':
-//    case '3':
-//    case '4':
+    case '2':
+    case '3':
+    case '4':
         ChangeCamera(key);
         break;
     case SDL_BUTTON_LEFT:
@@ -301,9 +301,9 @@ void Game::LoadData()
 
     // Different camera actors
     mFPSActor = new FPSActor(this);
-//    mFollowActor = new FollowActor(this);
-//    mOrbitActor = new OrbitActor(this);
-//    mSplineActor = new SplineActor(this);
+    mFollowActor = new FollowActor(this);
+    mOrbitActor = new OrbitActor(this);
+    mSplineActor = new SplineActor(this);
 
     ChangeCamera('1');
 
@@ -390,11 +390,11 @@ void Game::ChangeCamera(int mode)
     mFPSActor->SetState(Actor::EPaused);
     mFPSActor->SetVisible(false);
     mCrosshair->SetVisible(false);
-//    mFollowActor->SetState(Actor::EPaused);
-//    mFollowActor->SetVisible(false);
-//    mOrbitActor->SetState(Actor::EPaused);
-//    mOrbitActor->SetVisible(false);
-//    mSplineActor->SetState(Actor::EPaused);
+    mFollowActor->SetState(Actor::EPaused);
+    mFollowActor->SetVisible(false);
+    mOrbitActor->SetState(Actor::EPaused);
+    mOrbitActor->SetVisible(false);
+    mSplineActor->SetState(Actor::EPaused);
 
     // Enable the camera specified by the mode
     switch (mode)
@@ -405,17 +405,17 @@ void Game::ChangeCamera(int mode)
         mFPSActor->SetVisible(true);
         mCrosshair->SetVisible(true);
         break;
-//    case '2':
-//        mFollowActor->SetState(Actor::EActive);
-//        mFollowActor->SetVisible(true);
-//        break;
-//    case '3':
-//        mOrbitActor->SetState(Actor::EActive);
-//        mOrbitActor->SetVisible(true);
-//        break;
-//    case '4':
-//        mSplineActor->SetState(Actor::EActive);
-//        mSplineActor->RestartSpline();
-//        break;
+    case '2':
+        mFollowActor->SetState(Actor::EActive);
+        mFollowActor->SetVisible(true);
+        break;
+    case '3':
+        mOrbitActor->SetState(Actor::EActive);
+        mOrbitActor->SetVisible(true);
+        break;
+    case '4':
+        mSplineActor->SetState(Actor::EActive);
+        mSplineActor->RestartSpline();
+        break;
     }
 }
