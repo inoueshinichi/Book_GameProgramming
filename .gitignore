@@ -21,3 +21,5 @@ Chapter14/Assets/*.bin
 # オリジナルのソースコード
 /code-master/
 
+# 各プロジェクトのビルド成果物フォルダ
+*/DerivedData/
